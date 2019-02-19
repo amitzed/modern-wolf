@@ -19,6 +19,16 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+        <Home />
+        <About />
+        <Music />
+        <Video />
+        <Find />
+        <Saying />
+        <Preloader />
+        <Photoswipe />
+        <Contact />
+        <Footer />
       </div>
     );
   }

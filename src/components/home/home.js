@@ -16,7 +16,7 @@ export default class Home extends Component {
               We make great music and beautiful audio landscapes
             </h3>
             <div className="home-content__video">
-              <a className="video-link" href="https://player.vimeo.com/video/117310401?color=01aef0&title=0&byline=0&portrait=0" data-lity>
+              <a className="video-link" href="https://youtu.be/eF70Ii69u9Y" data-lity>
                 <span className="video-icon" />
                 <span className="video-text">Watch Video</span>
               </a>

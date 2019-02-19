@@ -6,8 +6,8 @@ export default class Footer extends Component {
         <footer>
         <div className="row">
           <div className="col-full ss-copyright">
-            <span>© Copyright Sublime 2018</span>
-            <span>Design by <a href="https://www.styleshout.com/">Styleshout</a></span>
+            <span>© Copyright Modern Wolf 2019</span>
+            <span>Design by <a href="https://modernwolf.bandcamp.com/">Modern Wolf</a></span>
           </div>
         </div>
         <div className="ss-go-top">
