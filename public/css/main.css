@@ -36,9 +36,9 @@
  *    ## home animations
  *  # about
  *    ## about process
- *  # services
- *    ## services list
- *  # works
+ *  # music
+ *    ## music list
+ *  # video
  *    ## bricks/masonry
  *  # clients
  *  # testimonials
@@ -109,7 +109,7 @@ a:active {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  color: #FFFFFF;
+  color: #FF9C00;
   text-rendering: optimizeLegibility;
 }
 
@@ -551,9 +551,9 @@ form,
 
 #loader > div {
   content: "";
-  background: #FFFFFF;
-  width: 6px;
-  height: 6px;
+  background: #FF9C00;
+  width: 12px;
+  height: 12px;
   position: absolute;
   top: 0;
   left: 0;
@@ -961,8 +961,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #793ea5;
-  border-color: #793ea5;
+  background: #FF9C00;
+  border-color: #FF9C00;
   color: #FFFFFF;
 }
 
@@ -976,8 +976,9 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-  background: #6b3792;
-  border-color: #6b3792;
+  background: #8CFF00;
+  border-color: #8CFF00;
+  color: #333332;
 }
 
 /* button modifiers
@@ -1677,7 +1678,7 @@ body.menu-is-open {
   padding: 3.6rem 3rem 3.6rem 6rem;
   height: 100%;
   width: 50%;
-  background: #0C0C0C;
+  background: #0f0f0f;
   color: rgba(255, 255, 255, 0.25);
   overflow-y: auto;
   overflow-x: hidden;
@@ -2111,7 +2112,7 @@ body.menu-is-open {
   font-size: 18rem;
   line-height: 1;
   letter-spacing: -.02em;
-  color: #FFFFFF;
+  color: #D1D1CF;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -2123,7 +2124,7 @@ body.menu-is-open {
   font-size: 3.8rem;
   line-height: 1.342;
   font-style: normal;
-  color: #9c9c9c;
+  color: #878785;
 }
 
 .home-content__main {
@@ -2152,7 +2153,7 @@ body.menu-is-open {
   height: 9rem;
   width: 9rem;
   border-radius: 50%;
-  background-color: #793ea5;
+  background-color: #8CFF00;
   background-image: url(../images/icons/icon-play.svg);
   background-repeat: no-repeat;
   background-position: 55% center;
@@ -2181,7 +2182,7 @@ body.menu-is-open {
 }
 
 .home-content__video .video-link:hover .video-icon {
-  background-color: #6b3792;
+  background-color: #FF9C00;
 }
 
 /* -------------------------------------------------------------------
@@ -2279,7 +2280,7 @@ body.menu-is-open {
 }
 
 .home-social a {
-  color: white;
+  color: #8CFF00;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
@@ -2750,8 +2751,8 @@ html.no-csstransitions .home-content__main {
   font-size: 2.1rem;
   font-weight: 700;
   text-align: center;
-  color: #FFFFFF;
-  background-color: #793ea5;
+  color: #333332;
+  background-color: #8CFF00;
   height: 48px;
   width: 48px;
   line-height: 48px;
@@ -2849,7 +2850,7 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # services
+ * # music
  *
  * ------------------------------------------------------------------- */
 .s-services {
@@ -2859,7 +2860,7 @@ html.no-csstransitions .home-content__main {
 }
 
 /* -------------------------------------------------------------------
- * ## services list
+ * ## music list
  * ------------------------------------------------------------------- */
 .services {
   margin-top: 9rem;
@@ -2894,7 +2895,7 @@ html.no-csstransitions .home-content__main {
 
 /* -------------------------------------------------------------------
  * responsive:
- * services
+ * music
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1200px) {
   .services {
@@ -2979,7 +2980,7 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # works
+ * # video
  *
  * ------------------------------------------------------------------- */
 .s-works {
@@ -3205,7 +3206,7 @@ html.no-csstransitions .home-content__main {
 
 /* -------------------------------------------------------------------
  * responsive:
- * works
+ * video
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1000px) {
   .s-works {
@@ -3643,7 +3644,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-email a {
-  font-size: 9rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 1.2;
   color: #FFFFFF;

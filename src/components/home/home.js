@@ -3,7 +3,7 @@ export default class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <section id="home" className="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width={3000} data-natural-height={2000} data-position-y="center">
+        <section id="home" className="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/mw-glitch-images/mw-glitch-miniVid1.mov.gif" data-natural-width={3000} data-natural-height={2000} data-position-y="center">
         <div className="grid-overlay">
           <div />
         </div>
