@@ -10,6 +10,12 @@ export default class Video extends Component {
             <h1 className="display-1">
               We create music, dance, and tunes that people love. Check out our lastest releases.
             </h1>
+            <div className="home-content__video">
+              <a className="video-link" href="https://youtu.be/HqU68rhWvKQ" data-lity>
+                <span className="video-icon" />
+                <span className="video-text">Bottles Burn Like 1985</span>
+              </a>
+            </div>
           </div>
         </div> {/* end section-header */}
         <div className="row masonry-wrap">
