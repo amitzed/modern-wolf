@@ -1,9 +1,9 @@
-$(() =>{
-
+// Start Document Ready Function
+$(() => {
 
     "use strict";
 
-    var cfg = {
+    const cfg = {
         scrollDuration : 800, // smoothscroll duration
         mailChimpURL   : 'https://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&amp;id=e6957d85dc'   // mailchimp url
     },
@@ -12,7 +12,7 @@ $(() =>{
 
     // Add the User Agent to the <html>
     // will be used for IE10 detection (Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0))
-    var doc = document.documentElement;
+    const doc = document.documentElement;
     doc.setAttribute('data-useragent', navigator.userAgent);
 
     // svg fallback
@@ -23,17 +23,17 @@ $(() =>{
 
    /* Preloader
     * -------------------------------------------------- */
-    var ssPreloader = function() {
+    const ssPreloader = () => {
 
         $("html").addClass('ss-preload');
 
-        $WIN.on('load', function() {
+        $WIN.on('load', () => {
 
             //force page scroll position to top at page refresh
             $('html, body').animate({ scrollTop: 0 }, 'normal');
 
             // will first fade out the loading animation
-            $("#loader").fadeOut("slow", function() {
+            $("#loader").fadeOut("slow", () => {
                 // will fade out the whole DIV that covers the website.
                 $("#preloader").delay(300).fadeOut("slow");
             });
@@ -48,11 +48,11 @@ $(() =>{
 
    /* Menu on Scrolldown
     * ------------------------------------------------------ */
-    var ssMenuOnScrolldown = function() {
+    const ssMenuOnScrolldown = () => {
 
-        var menuTrigger = $('.header-menu-toggle');
+        const menuTrigger = $('.header-menu-toggle');
 
-        $WIN.on('scroll', function() {
+        $WIN.on('scroll', () => {
 
             if ($WIN.scrollTop() > 150) {
                 menuTrigger.addClass('opaque');
@@ -67,28 +67,28 @@ $(() =>{
 
    /* OffCanvas Menu
     * ------------------------------------------------------ */
-    var ssOffCanvas = function() {
+    const ssOffCanvas = () => {
 
-        var menuTrigger     = $('.header-menu-toggle'),
+        const menuTrigger     = $('.header-menu-toggle'),
             nav             = $('.header-nav'),
             closeButton     = nav.find('.header-nav__close'),
             siteBody        = $('body'),
             mainContents    = $('section, footer');
 
         // open-close menu by clicking on the menu icon
-        menuTrigger.on('click', function(e){
+        menuTrigger.on('click', (e) => {
             e.preventDefault();
             siteBody.toggleClass('menu-is-open');
         });
 
         // close menu by clicking the close button
-        closeButton.on('click', function(e){
+        closeButton.on('click', (e) => {
             e.preventDefault();
             menuTrigger.trigger('click');
         });
 
         // close menu clicking outside the menu itself
-        siteBody.on('click', function(e){
+        siteBody.on('click', (e) =>{
             if( !$(e.target).is('.header-nav, .header-nav__content, .header-menu-toggle, .header-menu-toggle span') ) {
                 siteBody.removeClass('menu-is-open');
             }
@@ -99,11 +99,11 @@ $(() =>{
 
    /* Masonry
     * ---------------------------------------------------- */
-    var ssMasonryFolio = function () {
+    const ssMasonryFolio = () => {
 
-        var containerBricks = $('.masonry');
+        const containerBricks = $('.masonry');
 
-        containerBricks.imagesLoaded(function () {
+        containerBricks.imagesLoaded(() => {
             containerBricks.masonry({
                 itemSelector: '.masonry__brick',
                 resize: true
@@ -114,15 +114,15 @@ $(() =>{
 
    /* photoswipe
     * ----------------------------------------------------- */
-    var ssPhotoswipe = function() {
-        var items = [],
+    const ssPhotoswipe = () => {
+        const items = [],
             $pswp = $('.pswp')[0],
             $folioItems = $('.item-folio');
 
         // get items
         $folioItems.each( function(i) {
 
-            var $folio = $(this),
+            const $folio = $(this),
                 $thumbLink =  $folio.find('.thumb-link'),
                 $title = $folio.find('.item-folio__title'),
                 $caption = $folio.find('.item-folio__caption'),
@@ -133,7 +133,7 @@ $(() =>{
                 $width  = $size[0],
                 $height = $size[1];
 
-            var item = {
+            const item = {
                 src  : $href,
                 w    : $width,
                 h    : $height
@@ -151,13 +151,13 @@ $(() =>{
 
             $(this).on('click', function(e) {
                 e.preventDefault();
-                var options = {
+                const options = {
                     index: i,
                     showHideOpacity: true
                 }
 
                 // initialize PhotoSwipe
-                var lightBox = new PhotoSwipe($pswp, PhotoSwipeUI_Default, items, options);
+                const lightBox = new PhotoSwipe($pswp, PhotoSwipeUI_Default, items, options);
                 lightBox.init();
             });
 
@@ -167,7 +167,7 @@ $(() =>{
 
    /* slick slider
     * ------------------------------------------------------ */
-    var ssSlickSlider = function() {
+    const ssSlickSlider = () => {
 
         $('.testimonials__slider').slick({
             arrows: false,
@@ -183,10 +183,10 @@ $(() =>{
 
    /* Smooth Scrolling
     * ------------------------------------------------------ */
-    var ssSmoothScroll = function() {
+    const ssSmoothScroll = () => {
 
         $('.smoothscroll').on('click', function (e) {
-            var target = this.hash,
+            const target = this.hash,
             $target    = $(target);
 
                 e.preventDefault();
@@ -210,9 +210,9 @@ $(() =>{
 
    /* Alert Boxes
     * ------------------------------------------------------ */
-    var ssAlertBoxes = function() {
+    const ssAlertBoxes = () => {
 
-        $('.alert-box').on('click', '.alert-box__close', function() {
+        $('.alert-box').on('click', '.alert-box__close', () => {
             $(this).parent().fadeOut(500);
         });
 
@@ -221,7 +221,7 @@ $(() =>{
 
    /* Animate On Scroll
     * ------------------------------------------------------ */
-    var ssAOS = function() {
+    const ssAOS = () => {
 
         AOS.init( {
             offset: 200,
