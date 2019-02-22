@@ -27,24 +27,24 @@ export default class Contact extends Component {
             </p>
             <ul className="contact-social">
               <li>
-                <a href="#0"><i className="fab fa-facebook" /></a>
+                <a target="_blank" href="https://www.facebook.com/modernwolfhowl/"><i className="fab fa-facebook" /></a>
               </li>
               <li>
-                <a href="#0"><i className="fab fa-twitter" /></a>
+                <a target="_blank" href="#0"><i className="fab fa-twitter" /></a>
               </li>
               <li>
-                <a href="#0"><i className="fab fa-instagram" /></a>
+                <a target="_blank" href="#0"><i className="fab fa-instagram" /></a>
               </li>
               <li>
-                <a href="#0"><i className="fab fa-behance" /></a>
+                <a target="_blank" href="https://soundcloud.com/modernwolf"><i className="fab fa-soundcloud" /></a>
               </li>
               <li>
-                <a href="#0"><i className="fab fa-dribbble" /></a>
+                <a target="_blank" href="https://open.spotify.com/artist/05vLOX4PuvR1i97vcNBd47"><i className="fab fa-spotify" /></a>
               </li>
             </ul>
           </div>
         </div>
-      </section> {/* end s-contact */}
+      </section>
       </React.Fragment>
     );
   }

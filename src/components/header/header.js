@@ -23,19 +23,19 @@ export default class Header extends Component {
               <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href="#0">voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
               <ul className="header-nav__social">
                 <li>
-                  <a href="#0"><i className="fab fa-facebook" /></a>
+                  <a target="_blank" href="https://www.facebook.com/modernwolfhowl/"><i className="fab fa-facebook" /></a>
                 </li>
                 <li>
-                  <a href="#0"><i className="fab fa-twitter" /></a>
+                  <a target="_blank" href="#0"><i className="fab fa-twitter" /></a>
                 </li>
                 <li>
-                  <a href="#0"><i className="fab fa-instagram" /></a>
+                  <a target="_blank" href="#0"><i className="fab fa-instagram" /></a>
                 </li>
                 <li>
-                  <a href="#0"><i className="fab fa-behance" /></a>
+                  <a target="_blank" href="https://soundcloud.com/modernwolf"><i className="fab fa-soundcloud" /></a>
                 </li>
                 <li>
-                  <a href="#0"><i className="fab fa-dribbble" /></a>
+                  <a target="_blank" href="https://open.spotify.com/artist/05vLOX4PuvR1i97vcNBd47"><i className="fab fa-spotify" /></a>
                 </li>
               </ul>
             </div> {/* end header-nav__content */}

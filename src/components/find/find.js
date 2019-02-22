@@ -16,18 +16,18 @@ export default class Find extends Component {
       <div className="row clients-wrap" data-aos="fade-up">
         <div className="col-twelve">
           <ul className="clients">
-            <li><a href="#0">Bandcamp</a></li>
-            <li><a href="#0">Spotify</a></li>
-            <li><a href="#0">Soundcloud</a></li>
-            <li><a href="#0">Dropbox</a></li>
-            <li><a href="#0">Apple</a></li>
-            <li><a href="#0">Google</a></li>
-            <li><a href="#0">Amazon</a></li>
-            <li><a href="#0">Facebook</a></li>
-            <li><a href="#0">Crucial Music</a></li>
-            <li><a href="#0">Apple</a></li>
-            <li><a href="#0">Google</a></li>
-            <li><a href="#0">CD Baby</a></li>
+            <li><a target="_blank" href="https://modernwolf.bandcamp.com/">Bandcamp</a></li>
+            <li><a target="_blank" href="https://open.spotify.com/artist/05vLOX4PuvR1i97vcNBd47">Spotify</a></li>
+            <li><a target="_blank" href="https://soundcloud.com/modernwolf">Soundcloud</a></li>
+            <li><a target="_blank" href="#0">Dropbox</a></li>
+            <li><a target="_blank" href="#0">Apple</a></li>
+            <li><a target="_blank" href="#0">Google</a></li>
+            <li><a target="_blank" href="#0">Amazon</a></li>
+            <li><a target="_blank" href="https://www.facebook.com/modernwolfhowl/">Facebook</a></li>
+            <li><a target="_blank" href="#0">Crucial Music</a></li>
+            <li><a target="_blank" href="#0">Apple</a></li>
+            <li><a target="_blank" href="#0">Google</a></li>
+            <li><a target="_blank" href="#0">CD Baby</a></li>
           </ul>
         </div>
       </div>

@@ -2,6 +2,7 @@
  *  ------------------------------------------------------------------
  *
  *  Table of Contents:
+ *  # Fonts
  *  # base style overrides
  *    ## links
  *  # typography & general theme styles
@@ -48,9 +49,23 @@
  *    ## copyright
  *    ## go top
  *
- * =================================================================== */
-
-
+ /* ===================================================================
+  * # Fonts
+  * ------------------------------------------------------------------- */
+/* <link rel="stylesheet" href="https://use.typekit.net/dus8aju.css"> */
+@import "https://use.typekit.net/dus8aju.css";
+/* font-family: "battery-park",sans-serif;
+font-weight: 400;
+font-style: normal; */
+/* *********** */
+/* font-family: "saffran",sans-serif;
+font-weight: 200;
+font-style: normal;*/
+/* *********** */
+@import "https://fonts.googleapis.com/css?family=Raleway|Roboto|Slabo+27px";
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Slabo 27px', serif; */
+/* font-family: 'Raleway', sans-serif; */
 /* ===================================================================
  * # base style overrides
  * ------------------------------------------------------------------- */
@@ -107,8 +122,9 @@ a:active {
  * # typography & general theme styles
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
+  font-family: "battery-park",sans-serif;
+  font-weight: 550;
+  font-style: normal;
   color: #FF9C00;
   text-rendering: optimizeLegibility;
 }
@@ -176,17 +192,23 @@ h6, .h6 {
   letter-spacing: .16rem;
 }
 
+p {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+}
+
 p img {
   margin: 0;
 }
 
 p.lead {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "saffran",sans-serif;
+  font-style: normal;
   font-weight: 300;
   font-size: 2.4rem;
   line-height: 1.625;
   margin-bottom: 3.6rem;
-  color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.4);
 }
 
 @media only screen and (max-width:1200px) {
@@ -1413,7 +1435,8 @@ body.menu-is-open {
  * ## display headings
  * ------------------------------------------------------------------- */
 .display-1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "saffran",sans-serif;
+  font-style: normal;
   font-weight: 600;
   font-size: 4.6rem;
   line-height: 1.5;
@@ -1423,7 +1446,8 @@ body.menu-is-open {
 }
 
 .subhead {
-  font-family: "Montserrat", sans-serif;
+  font-family: "saffran",sans-serif;
+  font-style: normal;
   font-weight: 600;
   font-size: 1.8rem;
   line-height: 1.333;
@@ -2107,11 +2131,13 @@ body.menu-is-open {
 }
 
 .home-content h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-family: "battery-park",sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 18rem;
   line-height: 1;
   letter-spacing: -.02em;
+  /* letter-spacing: .02em; */
   color: #D1D1CF;
   margin-top: 0;
   margin-bottom: 0;
@@ -2119,8 +2145,9 @@ body.menu-is-open {
 
 .home-content h3 {
   margin-top: 1.2rem;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 300;
+  font-family: "saffran",sans-serif;
+  font-weight: 200;
+  font-style: normal;
   font-size: 3.8rem;
   line-height: 1.342;
   font-style: normal;
@@ -2165,7 +2192,9 @@ body.menu-is-open {
 .home-content__video .video-text {
   display: inline-block;
   text-align: center;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "saffran",sans-serif;
+  font-weight: 200;
+  font-style: normal;
   font-weight: 600;
   font-size: 1.3rem;
   line-height: 1;
@@ -2239,20 +2268,21 @@ body.menu-is-open {
 }
 
 .home-content__scroll .scroll-link {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "saffran",sans-serif;
+  font-style: normal;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
   letter-spacing: .35rem;
   text-align: left;
-  color: #FFFFFF;
+  color: #8CFF00;
   position: relative;
   padding-right: 180px;
 }
 
 .home-content__scroll .scroll-link:hover,
 .home-content__scroll .scroll-link:focus {
-  color: #793ea5;
+  color: #FF9C00;
 }
 
 .home-content__scroll::after {
@@ -2271,7 +2301,9 @@ body.menu-is-open {
  * ------------------------------------------------------------------- */
 .home-social {
   list-style: none;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "saffran",sans-serif;
+  font-weight: 300;
+  font-style: normal;
   margin: 0;
   position: absolute;
   bottom: 3.6rem;
@@ -2747,7 +2779,8 @@ html.no-csstransitions .home-content__main {
   content: counter(ctr);
   counter-increment: ctr;
   display: block;
-  font-family: "Montserrat", sans-serif;
+  font-family: "saffran",sans-serif;
+  font-style: normal;
   font-size: 2.1rem;
   font-weight: 700;
   text-align: center;
@@ -3109,19 +3142,21 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__title {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 1.4rem;
-  font-weight: 700;
+  font-family: "battery-park",sans-serif;
+  font-style: normal;
+  font-size: 1.7rem;
+  font-weight: 100;
   line-height: 1.286;
-  color: #FFFFFF;
+  color: #FF9C00;
   text-transform: uppercase;
   letter-spacing: .2rem;
   margin: 0 0 .3rem 0;
 }
 
 .item-folio__cat {
-  color: rgba(255, 255, 255, 0.5);
-  font-family: "Nunito Sans", sans-serif;
+  color: rgba(140, 255, 0, 0.7);
+  font-family: "saffran",sans-serif;
+  font-style: normal;
   font-size: 1.4rem;
   font-weight: 300;
   line-height: 1.714;
@@ -3134,8 +3169,8 @@ html.no-csstransitions .home-content__main {
 
 .item-folio__project-link {
   display: block;
-  color: #FFFFFF;
-  box-shadow: 0 0 0 1px #FFFFFF;
+  color: #8CFF00;
+  box-shadow: 0 0 0 1px #FF9C00;
   border-radius: 50%;
   height: 4.2rem;
   width: 4.2rem;
@@ -3170,7 +3205,7 @@ html.no-csstransitions .home-content__main {
 .item-folio__project-link:hover,
 .item-folio__project-link:focus,
 .item-folio__project-link:active {
-  background-color: #FFFFFF;
+  background-color: #FF9C00;
   color: #000000;
 }
 
@@ -3597,14 +3632,14 @@ html.no-csstransitions .home-content__main {
 .s-contact {
   padding-top: 16.2rem;
   padding-bottom: 21rem;
-  background-color: #5e3080;
+  background-color: #121212;
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
   position: relative;
 }
 
 .s-contact a {
-  color: #FFFFFF;
+  color: #D1D1CF;
 }
 
 .s-contact .grid-overlay {
@@ -3647,7 +3682,7 @@ html.no-csstransitions .home-content__main {
   font-size: 3rem;
   font-weight: 700;
   line-height: 1.2;
-  color: #FFFFFF;
+  color: #D1D1CF;
   border-bottom: 3px solid rgba(0, 0, 0, 0.2);
 }
 
@@ -3673,13 +3708,13 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-social li a {
-  color: white;
+  color: #8CFF00;
   border: none !important;
 }
 
 .contact-social li a:hover,
 .contact-social li a:focus {
-  color: #FFFFFF;
+  color: #FF9C00;
 }
 
 .contact-social li:last-child {
@@ -3815,14 +3850,14 @@ footer {
   padding-top: 9rem;
   padding-bottom: 6rem;
   color: rgba(255, 255, 255, 0.6);
-  background-color: #5e3080;
+  background-color: #121212;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   text-align: center;
   position: relative;
 }
 
 footer a {
-  color: #FFFFFF;
+  color: #D1D1CF;
 }
 
 /* -------------------------------------------------------------------
@@ -3837,7 +3872,7 @@ footer a {
   content: "·";
   display: inline-block;
   padding: 0 1rem 0 1.2rem;
-  color: white;
+  color: #D1D1CF;
 }
 
 .ss-copyright span:last-child::after {
@@ -3845,10 +3880,11 @@ footer a {
 }
 
 .ss-go-top a {
-  color: #FFFFFF;
-  background-color: #351b48;
+  color: #D1D1CF;
+  background-color: #333332;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "saffran",sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 13px;
   text-transform: uppercase;
@@ -3885,7 +3921,8 @@ footer a {
 
 .ss-go-top a:hover,
 .ss-go-top a:focus {
-  background-color: #2d173d;
+  background-color: #878785;
+  color: #121212;
 }
 
 /* -------------------------------------------------------------------
