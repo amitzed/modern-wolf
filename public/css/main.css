@@ -87,7 +87,7 @@ body {
 
 body {
   background: #121212;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.7rem;
   font-style: normal;
   font-weight: normal;
@@ -983,6 +983,7 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
+  font-family: 'Raleway', sans-serif;
   background: #FF9C00;
   border-color: #FF9C00;
   color: #FFFFFF;
@@ -998,9 +999,13 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
+  font-family: "saffran",sans-serif;
+  letter-spacing: 8px;
   background: #8CFF00;
-  border-color: #8CFF00;
-  color: #333332;
+  color: #13161b;
+  -webkit-transition: ease all .5s;
+  -ms-transition: ease all .5s;
+  transition: ease all .5s;
 }
 
 /* button modifiers
@@ -2230,6 +2235,8 @@ body.menu-is-open {
   border: 5px solid #FF9C00;
   background-position: 50% center;
   background-size: 72px 81px;
+  -webkit-transition: ease all .5s;
+  transition: ease all .5s;
 }
 /* ** Ripple Animation for Play Icon On Hover ** */
 .home-content__video .video-link:hover:before{
@@ -2245,10 +2252,6 @@ body.menu-is-open {
 	transform:scale(0);
 }
 
-@keyframes ripple{
-	from{transform:scale(0); opacity:1;}
-	to{transform:scale(2);opacity:0;}
-}
 /* **** */
 
 /* -------------------------------------------------------------------
@@ -2278,6 +2281,7 @@ body.menu-is-open {
 }
 
 .home-content__button .btn:not(.btn--primary) {
+  font-family: 'Raleway', sans-serif;
   background-color: #13161b;
   border-color: #13161b;
   color: #FFFFFF;
@@ -2285,8 +2289,14 @@ body.menu-is-open {
 
 .home-content__button .btn:not(.btn--primary):hover,
 .home-content__button .btn:not(.btn--primary):focus {
-  background-color: #080a0c;
+  font-family: "saffran",sans-serif;
+  letter-spacing: 10px;
+  background-color: #8CFF00;
   border-color: #080a0c;
+  color: #13161b;
+  -webkit-transition: ease all .5s;
+  -ms-transition: ease all .5s;
+  transition: ease all .5s;
 }
 
 /* -------------------------------------------------------------------
@@ -2386,9 +2396,11 @@ body.menu-is-open {
 }
 
 .home-social span {
-  background-color: #000000;
-  color: #FFFFFF;
-  font-size: 1.2rem;
+  font-family: 'Raleway', sans-serif;
+  background-color: #333332;
+  color: #FF9C00;
+  font-size: 1.3rem;
+  font-weight: bold;
   line-height: 30px;
   top: 0;
   left: 50px;
@@ -2509,6 +2521,21 @@ html.no-csstransitions .home-content__main {
     transform: translate3d(0, -150%, 0);
   }
 
+}
+
+/* Ripple Effect */
+@keyframes ripple {
+  from {
+    transform: scale(0);
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+    opacity: 0;
+  }
 }
 
 /* -------------------------------------------------------------------
@@ -4003,5 +4030,6 @@ footer a {
   }
 
 }
+
 
 /*# sourceMappingURL=main.css.map */
