@@ -5,7 +5,7 @@ export default class Header extends Component {
       <header className="s-header">
         <div className="header-logo">
           <a className="site-logo" href="index.html">
-            <img src="images/logo.svg" alt="Homepage"/>
+            <img src="images/logo-wolf.svg" alt="Homepage"/>
           </a>
         </div>
         {/* end header-logo */}

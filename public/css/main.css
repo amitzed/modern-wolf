@@ -25,7 +25,7 @@
  *    ## section header
  *    ## grid overlay
  *  # header styles
- *    ## header logo
+ *    ## header-logo
  *    ## main navigation
  *    ## mobile menu toggle
  *  # home
@@ -573,9 +573,10 @@ form,
 
 #loader > div {
   content: "";
-  background: #FF9C00;
-  width: 12px;
-  height: 12px;
+  /* background: #FF9C00; */
+  background: repeating-radial-gradient(#a79494, #000 80%, #8CFF00 15%);
+  width: 50px;
+  height: 50px;
   position: absolute;
   top: 0;
   left: 0;
@@ -1001,7 +1002,8 @@ input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
   font-family: "saffran",sans-serif;
   letter-spacing: 8px;
-  background: #8CFF00;
+  /* background: #8CFF00; */
+  background-image: url(../images/mw-GIFs/mw-glitch-reduced.gif);
   color: #13161b;
   -webkit-transition: ease all .5s;
   -ms-transition: ease all .5s;
@@ -1694,9 +1696,16 @@ body.menu-is-open {
 
 .header-logo img {
   width: 155px;
-  height: 36px;
+  /* height: 36px; */
+  height: 77px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
-/* **** header-ogo Animation **** */
+.header-logo img:hover {
+  -webkit-transform:scale(1.1);
+  transform: scale(1.1);
+}
+/* **** header-logo Animation **** */
 .header-logo:hover:before{
 	animation: ripple 1s ease;
 }
@@ -1705,8 +1714,10 @@ body.menu-is-open {
 	content:"";
 	position:absolute; top:0; left:0;
 	width:100%; height:100%;
-  background-color:rgba(255, 255, 255, 0.2);
+  /* background-color:rgba(255, 255, 255, 0.2); */
+  background-color:rgba(140, 255, 0, 0.9);
   border-radius:50%;
+  -webkit-transform:scale(0);
 	transform:scale(0);
 }
 /* End Animation */
@@ -2200,10 +2211,11 @@ body.menu-is-open {
   width: 9rem;
   border-radius: 50%;
   background-color: #8CFF00;
-  background-image: url(../images/icons/icon-play.svg);
+  background-image: url(../images/icons/logo-wolf.svg);
   background-repeat: no-repeat;
-  background-position: 55% center;
+  background-position: 50% center;
   background-size: 24px 27px;
+  opacity: .85;
   -webkit-transition: background-color 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
 }
@@ -2230,13 +2242,14 @@ body.menu-is-open {
 }
 
 .home-content__video .video-link:hover .video-icon {
-  background-color: white;
-  background-image: url(../images/icons/icon-mw-circle.png);
+  background-color: #FF9C00;
+  background-image: url(../images/mw-GIFs/wolf-flip.gif);
   border: 5px solid #FF9C00;
   background-position: 50% center;
   background-size: 72px 81px;
-  -webkit-transition: ease all .5s;
-  transition: ease all .5s;
+  opacity: 1;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 /* ** Ripple Animation for Play Icon On Hover ** */
 .home-content__video .video-link:hover:before{
@@ -2247,7 +2260,8 @@ body.menu-is-open {
 	content:"";
 	position:absolute; top:0; left:0;
 	width:100%; height:100%;
-  background-color:rgba(255, 255, 255, 0.1);
+  /* background-color:rgba(255, 255, 255, 0.1); */
+  background-color:rgba(140, 255, 0, 0.2);
   border-radius:50%;
 	transform:scale(0);
 }
@@ -2291,7 +2305,8 @@ body.menu-is-open {
 .home-content__button .btn:not(.btn--primary):focus {
   font-family: "saffran",sans-serif;
   letter-spacing: 10px;
-  background-color: #8CFF00;
+  /* background-color: #8CFF00; */
+  background-image: url(../images/mw-GIFs/mw-glitch-reduced.gif);
   border-color: #080a0c;
   color: #13161b;
   -webkit-transition: ease all .5s;
