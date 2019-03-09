@@ -48,7 +48,7 @@
  *  # footer
  *    ## copyright
  *    ## go top
- *
+ *  # Wolf Image SVG Animation
  /* ===================================================================
   * # Fonts
   * ------------------------------------------------------------------- */
@@ -4048,3 +4048,169 @@ footer a {
 
 
 /*# sourceMappingURL=main.css.map */
+
+/* -------------------------------------------------------------------
+ * Wolf Image SVG Animation
+ * ------------------------------------------------------------------- */
+
+.wrap {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 700px; */
+  width: 75%;
+  /* height: 700px; */
+  height: 75%;
+  animation: logo-spin 3 20s linear;
+  /* height: 40vmin; */
+  animation-delay: 10s;
+}
+.wrap:hover {
+  /* fill: rgba(140, 255, 0, 0.2); */
+  fill: rgba(255, 156, 0, 0.2);
+  /* fill: #8CFF00; */
+  /* fill: #FF9C00; */
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+/* CSS Animation */
+.st0, .st17 {
+  -webkit-animation: move 4s infinite;
+  animation: move 4s infinite;
+  animation-delay: 2s;
+}
+.st0:hover {
+  fill: rgba(140, 255, 0, 0.2);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.st17:hover {
+  fill: rgba(140, 255, 0, 0.2);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.st1, .st2, .st3,
+.st4, .st5, .st6,
+.st7, .st8,
+.st9 {
+  -webkit-animation: move 6s infinite;
+  animation: move 6s infinite;
+  animation-delay: 2s;
+}
+.st120, .st121, .st122,
+.st123, .st124, .st125,
+.st126, .st127, .st128,
+.st129 {
+  -webkit-animation: move 8s infinite;
+  animation: move 8s infinite;
+  animation-delay: 2s;
+}
+.st120:hover {
+  fill: rgba(140, 255, 0, 0.2);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.st123:hover {
+  fill: rgba(140, 255, 0, 0.2);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.st129:hover {
+  fill: rgba(140, 255, 0, 0.2);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/*
+ * ----------------------------------------
+ * Move WHOLE BODY of SVG AROUND *Above*
+ * ----------------------------------------
+ */
+
+@keyframes move {
+  20% {
+    transform: rotateY(10deg) rotateX(10deg);
+  }
+
+  40% {
+    transform: rotateY(25deg) rotateX(10deg);
+  }
+
+  60% {
+    transform: rotateY(-10deg) rotateX(-10deg);
+  }
+
+  85% {
+    transform: rotateY(-10deg) rotateX(-16deg);
+  }
+}
+
+.st10, .st12, .st132,
+.st133, .st34, .st135,
+.st137, .st138,
+.st150 {
+  -webkit-animation: slide-in-bck-center 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-in-bck-center 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.st130, .st131, .st139,
+.st140, .st141, .st142,
+.st143, .st144,
+.st145 {
+  -webkit-animation: slide-in-bck-center 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-in-bck-center 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.st50, .st61, .st77,
+.st82, .st83, .st99,
+.st47, .st48, .st103,
+.st101 {
+  -webkit-animation: slide-in-bck-center 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-in-bck-center 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/*
+ * ----------------------------------------
+ * animation slide-in-bck-center *Above*
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-in-bck-center {
+  0% {
+    -webkit-transform: translateZ(600px);
+            transform: translateZ(600px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-bck-center {
+  0% {
+    -webkit-transform: translateZ(600px);
+            transform: translateZ(600px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+/*
+ * ----------------------------------------
+ * Additional animation Spin *Above*
+ * ----------------------------------------
+ */
+ @keyframes logo-spin {
+   from {
+     transform: rotate(0deg);
+   }
+   to {
+     transform: rotate(360deg);
+   }
+ }
+ /* -------------------------------------------------------------------
+  * END Wolf Image SVG Animation
+  * ------------------------------------------------------------------- */

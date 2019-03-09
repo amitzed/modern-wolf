@@ -3,8 +3,9 @@ import React, { Component } from 'react';
 // import './App.css';
 
 import Header from './components/header/header';
-import About from './components/about/about';
 import Home from './components/home/home';
+import Wolfimage from './components/wolfimage/wolfimage';
+import About from './components/about/about';
 import Music from './components/music/music';
 import Video from  './components/video/video';
 import Find from './components/find/find';
@@ -20,6 +21,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Home />
+        <Wolfimage />
         <About />
         <Music />
         <Video />
