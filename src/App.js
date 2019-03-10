@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 
 import Header from './components/header/header';
 import Home from './components/home/home';
-import Wolfimage from './components/wolfimage/wolfimage';
+// import Wolfimage from './components/wolfimage/wolfimage';
 import About from './components/about/about';
 import Music from './components/music/music';
 import Video from  './components/video/video';
@@ -21,7 +21,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Home />
-        <Wolfimage />
+
         <About />
         <Music />
         <Video />

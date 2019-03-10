@@ -1715,7 +1715,7 @@ body.menu-is-open {
 	position:absolute; top:0; left:0;
 	width:100%; height:100%;
   /* background-color:rgba(255, 255, 255, 0.2); */
-  background-color:rgba(140, 255, 0, 0.9);
+  background-color:rgba(140, 255, 0, 0.2);
   border-radius:50%;
   -webkit-transform:scale(0);
 	transform:scale(0);
@@ -2863,8 +2863,9 @@ html.no-csstransitions .home-content__main {
   font-size: 2.1rem;
   font-weight: 700;
   text-align: center;
-  color: #333332;
+  color: #FF9C00;
   background-color: #8CFF00;
+  background-image: url("../images/mw-GIFs/wolf-breath.gif");
   height: 48px;
   width: 48px;
   line-height: 48px;
@@ -3117,7 +3118,6 @@ html.no-csstransitions .home-content__main {
   background-image: url(../images/pattern.jpg);
   background-size: 760px 380px;
 }
-
 /* -------------------------------------------------------------------
  * ## bricks/masonry
  * ------------------------------------------------------------------- */
@@ -4053,25 +4053,42 @@ footer a {
  * Wolf Image SVG Animation
  * ------------------------------------------------------------------- */
 
-.wrap {
+.wrapHome {
+  fill: rgba(140, 255, 0, 0.2);
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* width: 700px; */
-  width: 75%;
-  /* height: 700px; */
-  height: 75%;
-  animation: logo-spin 3 20s linear;
-  /* height: 40vmin; */
-  animation-delay: 10s;
-}
-.wrap:hover {
-  /* fill: rgba(140, 255, 0, 0.2); */
-  fill: rgba(255, 156, 0, 0.2);
-  /* fill: #8CFF00; */
-  /* fill: #FF9C00; */
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+  animation: logo-spin 1 20s linear;
+  animation-delay: 10s;
+}
+.wrapHome:hover {
+  fill: rgba(255, 156, 0, 0.5);
+  /* transform: scale(1.1); Don't use */ 
+}
+.wrapAbout {
+  /* fill: rgba(140, 255, 0, 0.2); */
+  fill: rgba(255, 156, 0, 0.2);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  animation: logo-spin 3 20s linear;
+  animation-delay: 10s;
+}
+.wrapAbout:hover {
+  /* fill: rgba(140, 255, 0, 0.2); */
+  fill: rgba(255, 156, 0, 0.5);
+  /* fill: #8CFF00; */
+  /* fill: #FF9C00; */
 }
 
 /* CSS Animation */
@@ -4080,15 +4097,19 @@ footer a {
   animation: move 4s infinite;
   animation-delay: 2s;
 }
+.st0 {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
 .st0:hover {
   fill: rgba(140, 255, 0, 0.2);
+}
+.st17 {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 .st17:hover {
   fill: rgba(140, 255, 0, 0.2);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
 }
 .st1, .st2, .st3,
 .st4, .st5, .st6,
@@ -4106,20 +4127,26 @@ footer a {
   animation: move 8s infinite;
   animation-delay: 2s;
 }
+.st120 {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
 .st120:hover {
   fill: rgba(140, 255, 0, 0.2);
+}
+.st123 {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 .st123:hover {
   fill: rgba(140, 255, 0, 0.2);
+}
+.st129 {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 .st129:hover {
   fill: rgba(140, 255, 0, 0.2);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
 }
 
 /*
