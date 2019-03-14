@@ -4068,7 +4068,7 @@ footer a {
 }
 .wrapHome:hover {
   fill: rgba(255, 156, 0, 0.5);
-  /* transform: scale(1.1); Don't use */ 
+  /* transform: scale(1.1); Don't use */
 }
 .wrapAbout {
   /* fill: rgba(140, 255, 0, 0.2); */
@@ -4081,7 +4081,7 @@ footer a {
   border-radius: 50%;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  animation: logo-spin 3 20s linear;
+  animation: logo-spin 5 20s linear;
   animation-delay: 10s;
 }
 .wrapAbout:hover {
@@ -4177,51 +4177,61 @@ footer a {
 .st133, .st34, .st135,
 .st137, .st138,
 .st150 {
-  -webkit-animation: slide-in-bck-center 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: slide-in-bck-center 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: shake 1.2s  cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: shake 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 .st130, .st131, .st139,
 .st140, .st141, .st142,
 .st143, .st144,
 .st145 {
-  -webkit-animation: slide-in-bck-center 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: slide-in-bck-center 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: shake 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: shake 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 .st50, .st61, .st77,
 .st82, .st83, .st99,
 .st47, .st48, .st103,
 .st101 {
-  -webkit-animation: slide-in-bck-center 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: slide-in-bck-center 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: shake 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: shake 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 /*
  * ----------------------------------------
- * animation slide-in-bck-center *Above*
+ * animation shake *Above*
  * ----------------------------------------
  */
-@-webkit-keyframes slide-in-bck-center {
-  0% {
-    -webkit-transform: translateZ(600px);
-            transform: translateZ(600px);
-    opacity: 0;
+@-webkit-keyframes shake {
+  00% {
+    transform: rotate(16deg) rotate(10deg);
   }
+
+  40% {
+    transform: rotate(25deg) rotate(10deg);
+  }
+
+  60% {
+    transform: rotate(-10deg) rotate(-10deg);
+  }
+
   100% {
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
-    opacity: 1;
+    transform: rotate(0deg) rotate(0deg);
   }
 }
-@keyframes slide-in-bck-center {
-  0% {
-    -webkit-transform: translateZ(600px);
-            transform: translateZ(600px);
-    opacity: 0;
+@keyframes shake {
+  00% {
+    transform: rotate(16deg) rotate(10deg);
   }
+
+  40% {
+    transform: rotate(25deg) rotate(10deg);
+  }
+
+  60% {
+    transform: rotate(-10deg) rotate(-10deg);
+  }
+
   100% {
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
-    opacity: 1;
+    transform: rotate(0deg) rotate(0deg);
   }
 }
 
@@ -4230,6 +4240,14 @@ footer a {
  * Additional animation Spin *Above*
  * ----------------------------------------
  */
+ @-webkit-keyframes logo-spin {
+   from {
+     transform: rotate(0deg);
+   }
+   to {
+     transform: rotate(360deg);
+   }
+ }
  @keyframes logo-spin {
    from {
      transform: rotate(0deg);
