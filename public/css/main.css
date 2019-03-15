@@ -2554,6 +2554,309 @@ html.no-csstransitions .home-content__main {
 }
 
 /* -------------------------------------------------------------------
+ * Wolf Image & Font SVG Animation
+ * ------------------------------------------------------------------- */
+ /* -------------------------------------------------------------------
+  * Home Logo Font
+  * ------------------------------------------------------------------- */
+ .modernFont-M,
+ .modernFont-O,
+ .modernFont-D,
+ .modernFont-E,
+ .modernFont-R,
+ .modernFont-N {
+   fill: rgba(167, 169, 172, 0.5);
+   -webkit-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;
+ }
+ .modernFont-M:hover,
+ .modernFont-O:hover,
+ .modernFont-D:hover,
+ .modernFont-E:hover,
+ .modernFont-R:hover,
+ .modernFont-N:hover {
+   /* fill: rgba(255, 156, 0, 0.4); */
+   fill: url(../images/mw-GIFs/mw-glitch-reduced.gif);
+ }
+ .wolfFont-W,
+ .wolfFont-O,
+ .wolfFont-L,
+ .wolfFont-F {
+   fill: rgba(140, 255, 0, 0.3);
+   -webkit-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;
+ }
+ .wolfFont-W:hover,
+ .wolfFont-O:hover,
+ .wolfFont-L:hover,
+ .wolfFont-F:hover {
+   /* fill: rgba(140, 255, 0, 0.3); */
+   fill: url(../images/mw-GIFs/mw-glitch-reduced.gif);
+ }
+
+ .modernFont-M {
+   -webkit-animation: zoomIn 2s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
+   animation: zoomIn 2s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
+ }
+ .modernFont-O {
+   -webkit-animation: zoomIn 2.05s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   animation: zoomIn 2.05s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+ }
+ .modernFont-D {
+   -webkit-animation: zoomIn 2.10s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
+   animation: zoomIn 2.10s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
+ }
+ .modernFont-E {
+   -webkit-animation: zoomIn 2.15s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   animation: zoomIn 2.15s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+ }
+ .modernFont-R {
+   -webkit-animation: zoomIn 2.20s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   animation: zoomIn 2.20s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+ }
+ .modernFont-N {
+   -webkit-animation: zoomIn 2.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   animation: zoomIn 2.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+ }
+ .wolfFont-W {
+   -webkit-animation: zoomIn 2.25s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
+   animation: zoomIn 2.25s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
+ }
+ .wolfFont-O {
+   -webkit-animation: zoomIn 2.15s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
+   animation: zoomIn 2.15s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
+ }
+ .wolfFont-L {
+   -webkit-animation: zoomIn 2.20s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
+   animation: zoomIn 2.20s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
+ }
+ .wolfFont-F {
+   -webkit-animation: zoomIn 2.2s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
+   animation: zoomIn 2.2s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
+ }
+/* Wolf Animation Home page */
+.wrapHome {
+  fill: rgba(140, 255, 0, 0.2);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  animation: logo-spin 1 20s linear;
+  animation-delay: 10s;
+}
+.wrapHome:hover {
+  fill: rgba(255, 156, 0, 0.5);
+  /* transform: scale(1.1); Don't use */
+}
+/* Wolf Animation ABOUT page */
+.wrapAbout {
+  /* fill: rgba(140, 255, 0, 0.2); */
+  fill: rgba(255, 156, 0, 0.2);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  animation: logo-spin 5 20s linear;
+  animation-delay: 10s;
+}
+.wrapAbout:hover {
+  /* fill: rgba(140, 255, 0, 0.2); */
+  fill: rgba(255, 156, 0, 0.5);
+  /* fill: #8CFF00; */
+  /* fill: #FF9C00; */
+}
+
+/* CSS Animation */
+.st0, .st17 {
+  -webkit-animation: move 4s infinite;
+  animation: move 4s infinite;
+  animation-delay: 2s;
+}
+.st0 {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.st0:hover {
+  fill: rgba(140, 255, 0, 0.2);
+}
+.st17 {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.st17:hover {
+  fill: rgba(140, 255, 0, 0.2);
+}
+.st1, .st2, .st3,
+.st4, .st5, .st6,
+.st7, .st8,
+.st9 {
+  -webkit-animation: move 6s infinite;
+  animation: move 6s infinite;
+  animation-delay: 2s;
+}
+.st120, .st121, .st122,
+.st123, .st124, .st125,
+.st126, .st127, .st128,
+.st129 {
+  -webkit-animation: move 8s infinite;
+  animation: move 8s infinite;
+  animation-delay: 2s;
+}
+.st120 {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.st120:hover {
+  fill: rgba(140, 255, 0, 0.2);
+}
+.st123 {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.st123:hover {
+  fill: rgba(140, 255, 0, 0.2);
+}
+.st129 {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.st129:hover {
+  fill: rgba(140, 255, 0, 0.2);
+}
+
+/*
+ * ----------------------------------------
+ * Move WHOLE BODY of SVG AROUND Animation *Above*
+ * ----------------------------------------
+ */
+
+@keyframes move {
+  20% {
+    transform: rotateY(10deg) rotateX(10deg);
+  }
+
+  40% {
+    transform: rotateY(25deg) rotateX(10deg);
+  }
+
+  60% {
+    transform: rotateY(-10deg) rotateX(-10deg);
+  }
+
+  85% {
+    transform: rotateY(-10deg) rotateX(-16deg);
+  }
+}
+
+.st10, .st12, .st132,
+.st133, .st34, .st135,
+.st137, .st138,
+.st150 {
+  -webkit-animation: shake 1.2s  cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: shake 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.st130, .st131, .st139,
+.st140, .st141, .st142,
+.st143, .st144,
+.st145 {
+  -webkit-animation: shake 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: shake 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.st50, .st61, .st77,
+.st82, .st83, .st99,
+.st47, .st48, .st103,
+.st101 {
+  -webkit-animation: shake 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: shake 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/*
+ * ----------------------------------------
+ * animation shake *Above*
+ * ----------------------------------------
+ */
+@-webkit-keyframes shake {
+  00% {
+    transform: rotate(16deg) rotate(10deg);
+  }
+
+  40% {
+    transform: rotate(25deg) rotate(10deg);
+  }
+
+  60% {
+    transform: rotate(-10deg) rotate(-10deg);
+  }
+
+  100% {
+    transform: rotate(0deg) rotate(0deg);
+  }
+}
+@keyframes shake {
+  00% {
+    transform: rotate(16deg) rotate(10deg);
+  }
+
+  40% {
+    transform: rotate(25deg) rotate(10deg);
+  }
+
+  60% {
+    transform: rotate(-10deg) rotate(-10deg);
+  }
+
+  100% {
+    transform: rotate(0deg) rotate(0deg);
+  }
+}
+
+/*
+ * ----------------------------------------
+ * Additional animation Spin *Above*
+ * ----------------------------------------
+ */
+ @-webkit-keyframes logo-spin {
+   from {
+     transform: rotate(0deg);
+   }
+   to {
+     transform: rotate(360deg);
+   }
+ }
+ @keyframes logo-spin {
+   from {
+     transform: rotate(0deg);
+   }
+   to {
+     transform: rotate(360deg);
+   }
+ }
+
+ /*
+  * ----------------------------------------
+  * Additional animation Zoom-In *Above*
+  * ----------------------------------------
+  */
+ @-webkit-keyframes zoomIn {
+   50% {transform: scale(0)}
+ }
+ @keyframes zoomIn {
+   50% {transform: scale(0)}
+ }
+ /* -------------------------------------------------------------------
+  * END Wolf Image & Font SVG Animation
+  * ------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------
  * responsive:
  * home
  * ------------------------------------------------------------------- */
@@ -3502,7 +3805,7 @@ html.no-csstransitions .home-content__main {
   padding-bottom: 21rem;
   text-align: center;
   position: relative;
-  background-image: url(../images/hero-bg.jpg);
+  background-image: url(../images/mwIMG.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4048,214 +4351,3 @@ footer a {
 
 
 /*# sourceMappingURL=main.css.map */
-
-/* -------------------------------------------------------------------
- * Wolf Image SVG Animation
- * ------------------------------------------------------------------- */
-
-.wrapHome {
-  fill: rgba(140, 255, 0, 0.2);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
-  height: 25%;
-  border-radius: 50%;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  animation: logo-spin 1 20s linear;
-  animation-delay: 10s;
-}
-.wrapHome:hover {
-  fill: rgba(255, 156, 0, 0.5);
-  /* transform: scale(1.1); Don't use */
-}
-.wrapAbout {
-  /* fill: rgba(140, 255, 0, 0.2); */
-  fill: rgba(255, 156, 0, 0.2);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: 50%;
-  border-radius: 50%;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  animation: logo-spin 5 20s linear;
-  animation-delay: 10s;
-}
-.wrapAbout:hover {
-  /* fill: rgba(140, 255, 0, 0.2); */
-  fill: rgba(255, 156, 0, 0.5);
-  /* fill: #8CFF00; */
-  /* fill: #FF9C00; */
-}
-
-/* CSS Animation */
-.st0, .st17 {
-  -webkit-animation: move 4s infinite;
-  animation: move 4s infinite;
-  animation-delay: 2s;
-}
-.st0 {
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-.st0:hover {
-  fill: rgba(140, 255, 0, 0.2);
-}
-.st17 {
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-.st17:hover {
-  fill: rgba(140, 255, 0, 0.2);
-}
-.st1, .st2, .st3,
-.st4, .st5, .st6,
-.st7, .st8,
-.st9 {
-  -webkit-animation: move 6s infinite;
-  animation: move 6s infinite;
-  animation-delay: 2s;
-}
-.st120, .st121, .st122,
-.st123, .st124, .st125,
-.st126, .st127, .st128,
-.st129 {
-  -webkit-animation: move 8s infinite;
-  animation: move 8s infinite;
-  animation-delay: 2s;
-}
-.st120 {
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-.st120:hover {
-  fill: rgba(140, 255, 0, 0.2);
-}
-.st123 {
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-.st123:hover {
-  fill: rgba(140, 255, 0, 0.2);
-}
-.st129 {
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-.st129:hover {
-  fill: rgba(140, 255, 0, 0.2);
-}
-
-/*
- * ----------------------------------------
- * Move WHOLE BODY of SVG AROUND *Above*
- * ----------------------------------------
- */
-
-@keyframes move {
-  20% {
-    transform: rotateY(10deg) rotateX(10deg);
-  }
-
-  40% {
-    transform: rotateY(25deg) rotateX(10deg);
-  }
-
-  60% {
-    transform: rotateY(-10deg) rotateX(-10deg);
-  }
-
-  85% {
-    transform: rotateY(-10deg) rotateX(-16deg);
-  }
-}
-
-.st10, .st12, .st132,
-.st133, .st34, .st135,
-.st137, .st138,
-.st150 {
-  -webkit-animation: shake 1.2s  cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: shake 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-.st130, .st131, .st139,
-.st140, .st141, .st142,
-.st143, .st144,
-.st145 {
-  -webkit-animation: shake 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: shake 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-.st50, .st61, .st77,
-.st82, .st83, .st99,
-.st47, .st48, .st103,
-.st101 {
-  -webkit-animation: shake 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: shake 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-/*
- * ----------------------------------------
- * animation shake *Above*
- * ----------------------------------------
- */
-@-webkit-keyframes shake {
-  00% {
-    transform: rotate(16deg) rotate(10deg);
-  }
-
-  40% {
-    transform: rotate(25deg) rotate(10deg);
-  }
-
-  60% {
-    transform: rotate(-10deg) rotate(-10deg);
-  }
-
-  100% {
-    transform: rotate(0deg) rotate(0deg);
-  }
-}
-@keyframes shake {
-  00% {
-    transform: rotate(16deg) rotate(10deg);
-  }
-
-  40% {
-    transform: rotate(25deg) rotate(10deg);
-  }
-
-  60% {
-    transform: rotate(-10deg) rotate(-10deg);
-  }
-
-  100% {
-    transform: rotate(0deg) rotate(0deg);
-  }
-}
-
-/*
- * ----------------------------------------
- * Additional animation Spin *Above*
- * ----------------------------------------
- */
- @-webkit-keyframes logo-spin {
-   from {
-     transform: rotate(0deg);
-   }
-   to {
-     transform: rotate(360deg);
-   }
- }
- @keyframes logo-spin {
-   from {
-     transform: rotate(0deg);
-   }
-   to {
-     transform: rotate(360deg);
-   }
- }
- /* -------------------------------------------------------------------
-  * END Wolf Image SVG Animation
-  * ------------------------------------------------------------------- */

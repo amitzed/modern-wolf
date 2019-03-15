@@ -9,12 +9,12 @@ export default class Home extends Component {
         <div className="home-content">
           <div className="row home-content__main">
             <h1>
-              Modern Wolf
+              {/* Modern Wolf */}
               {/* Font Logo */}
               <div className="wrapFont">
                 <svg
                   version="1.1"
-                  id="Layer_1"
+                  id="logoFont"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 410.3 63.7">
                   <switch>
@@ -96,7 +96,7 @@ export default class Home extends Component {
               {/* END Font Logo */}
             </h1>
               <div className = "wrapHome">
-              <svg id = 'Layer_1'
+              <svg id = 'logoWolf'
               xmlns = 'http://www.w3.org/2000/svg'
               viewBox = '0 0 851.5 793.1' >
               <switch >
@@ -1464,7 +1464,7 @@ export default class Home extends Component {
               We make great music and beautiful audio landscapes
             </h3>
             <div className="home-content__video">
-              <a className="video-link" href="https://youtu.be/eF70Ii69u9Y" data-lity="data-lity">
+              <a className="video-link" href="https://youtu.be/eF70Ii69u9Yrel=0" data-lity="data-lity">
                 <span className="video-icon"/>
                 <span className="video-text">Watch Video</span>
               </a>
