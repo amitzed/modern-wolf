@@ -23,8 +23,8 @@ export default class Video extends Component {
             <div className="masonry__brick" data-aos="fade-up">
               <div className="item-folio">
                 <div className="item-folio__thumb">
-                  <a href="images/portfolio/gallery/g-shutterbug.jpg" className="thumb-link" title="Music1" data-size="1050x700">
-                    <img src="images/portfolio/lady-shutterbug.jpg" srcSet="images/portfolio/lady-shutterbug.jpg 1x, images/portfolio/lady-shutterbug@2x.jpg 2x" alt="alt"/>
+                  <a href="images/portfolio/gallery/g-TreePond-logo-1050.jpg" className="thumb-link" title="Music1" data-size="1050x1050">
+                    <img src="images/portfolio/TreePond-logo-600" srcSet="images/portfolio/TreePond-logo-600.jpg 1x, images/portfolio/TreePond-logo-1200@2x.jpg 2x" alt="alt"/>
                   </a>
                 </div>
                 <div className="item-folio__text">
@@ -47,8 +47,8 @@ export default class Video extends Component {
             <div className="masonry__brick" data-aos="fade-up">
               <div className="item-folio">
                 <div className="item-folio__thumb">
-                  <a href="images/portfolio/gallery/g-woodcraft.jpg" className="thumb-link" title="Woodcraft" data-size="1050x700">
-                    <img src="images/portfolio/woodcraft.jpg" srcSet="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="alt"/>
+                  <a href="images/portfolio/gallery/g-Window.jpg" className="thumb-link" title="Window" data-size="1200x1500">
+                    <img src="images/portfolio/Window-600.jpg" srcSet="images/portfolio/Window-600.jpg 1x, images/portfolio/Window-1200@2x.jpg 2x" alt="alt"/>
                   </a>
                 </div>
                 <div className="item-folio__text">
@@ -71,8 +71,8 @@ export default class Video extends Component {
             <div className="masonry__brick" data-aos="fade-up">
               <div className="item-folio">
                 <div className="item-folio__thumb">
-                  <a href="images/portfolio/gallery/g-beetle.jpg" className="thumb-link" title="The Beetle Car" data-size="1050x700">
-                    <img src="images/portfolio/the-beetle.jpg" srcSet="images/portfolio/the-beetle.jpg 1x, images/portfolio/the-beetle@2x.jpg 2x" alt="alt"/>
+                  <a href="images/portfolio/gallery/g-statue-2100.jpg" className="thumb-link" title="Statue" data-size="2100x3046">
+                    <img src="images/portfolio/statue-600.jpg" srcSet="images/portfolio/statue-600.jpg 1x, images/portfolio/statue-1200@2x.jpg 2x" alt="alt"/>
                   </a>
                 </div>
                 <div className="item-folio__text">
@@ -95,8 +95,8 @@ export default class Video extends Component {
             <div className="masonry__brick" data-aos="fade-up">
               <div className="item-folio">
                 <div className="item-folio__thumb">
-                  <a href="images/portfolio/gallery/g-salad.jpg" className="thumb-link" title="Grow Green" data-size="1050x700">
-                    <img src="images/portfolio/salad.jpg" srcSet="images/portfolio/salad.jpg 1x, images/portfolio/salad@2x.jpg 2x" alt="alt"/>
+                  <a href="images/portfolio/gallery/g-LL-Church-logo-2100.jpg" className="thumb-link" title="Church" data-size="1050x800">
+                    <img src="images/portfolio/LL-Church-logo-600.jpg" srcSet="images/portfolio/LL-Church-logo-600.jpg 1x, images/portfolio/LL-Church-logo-1200@2x.jpg 2x" alt="alt"/>
                   </a>
                 </div>
                 <div className="item-folio__text">
@@ -119,8 +119,8 @@ export default class Video extends Component {
             <div className="masonry__brick" data-aos="fade-up">
               <div className="item-folio">
                 <div className="item-folio__thumb">
-                  <a href="images/portfolio/gallery/g-lamp.jpg" className="thumb-link" title="Guitarist" data-size="1050x700">
-                    <img src="images/portfolio/lamp.jpg" srcSet="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="alt"/>
+                  <a href="images/portfolio/gallery/g-poetsWalk-logo-2100.jpg" className="thumb-link" title="Poets Walk" data-size="1050x1050">
+                    <img src="images/portfolio/poetsWalk-logo-600.jpg" srcSet="images/portfolio/poetsWalk-logo-600.jpg 1x, images/portfolio/poetsWalk-logo-1200@2x.jpg 2x" alt="alt"/>
                   </a>
                 </div>
                 <div className="item-folio__text">
@@ -143,8 +143,8 @@ export default class Video extends Component {
             <div className="masonry__brick" data-aos="fade-up">
               <div className="item-folio">
                 <div className="item-folio__thumb">
-                  <a href="images/portfolio/gallery/g-fuji.jpg" className="thumb-link" title="Palmeira" data-size="1050x700">
-                    <img src="images/portfolio/fuji.jpg" srcSet="images/portfolio/fuji.jpg 1x, images/portfolio/fuji@2x.jpg 2x" alt="alt"/>
+                  <a href="images/portfolio/gallery/g-trellice-LOGO-2100.jpg" className="thumb-link" title="Trellice" data-size="1050x1400">
+                    <img src="images/portfolio/trellice-LOGO-600.jpg" srcSet="images/portfolio/trellice-LOGO-600.jpg 1x, images/portfolio/trellice-LOGO-1200@2x.jpg 2x" alt="alt"/>
                   </a>
                 </div>
                 <div className="item-folio__text">

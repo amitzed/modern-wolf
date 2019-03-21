@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 export default class Home extends Component {
   render() {
     return (<React.Fragment>
-      <section id="home" className="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/mwIMG.svg" data-natural-width={3000} data-natural-height={2000} data-position-y="center">
+      <section id="home" className="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/logo-wolf.svg" data-natural-width={3000} data-natural-height={2000} data-position-y="center">
         <div className="grid-overlay">
           <div/>
         </div>
@@ -95,7 +95,7 @@ export default class Home extends Component {
               </div>
               {/* END Font Logo */}
             </h1>
-              <div className = "wrapHome">
+              <div className = "animationHome">
               <svg id = 'logoWolf'
               xmlns = 'http://www.w3.org/2000/svg'
               viewBox = '0 0 851.5 793.1' >

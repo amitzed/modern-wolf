@@ -35,6 +35,7 @@
  *    ## home scroll
  *    ## home social
  *    ## home animations
+      ## home & about Wolf Image & Font SVG Animation
  *  # about
  *    ## about process
  *  # music
@@ -48,7 +49,7 @@
  *  # footer
  *    ## copyright
  *    ## go top
- *  # Wolf Image SVG Animation
+
  /* ===================================================================
   * # Fonts
   * ------------------------------------------------------------------- */
@@ -985,8 +986,8 @@ input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
   font-family: 'Raleway', sans-serif;
-  background: #FF9C00;
-  border-color: #FF9C00;
+  background: rgba(255, 156, 0, 0.6);
+  border-color: rgba(255, 156, 0, 0.6);
   color: #FFFFFF;
 }
 
@@ -2634,8 +2635,30 @@ html.no-csstransitions .home-content__main {
    -webkit-animation: zoomIn 2.2s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
    animation: zoomIn 2.2s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
  }
+/* Wolf Animation NAV page */
+.animationNav {
+  fill: rgba(140, 255, 0, 0.5);
+  /* fill: rgba(255, 156, 0, 0.2); */
+  display: block;
+  /* margin-left: auto; */
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-animation: implode 20s infinite;
+  animation: implode 20s infinite;
+  animation-delay: 2s;
+}
+.animationNav:hover {
+  fill: rgba(255, 156, 0, 0.5);
+}
+@keyframes implode {
+  100% {transform: scale(0)}
+}
 /* Wolf Animation Home page */
-.wrapHome {
+.animationHome {
   fill: rgba(140, 255, 0, 0.2);
   display: block;
   margin-left: auto;
@@ -2648,12 +2671,12 @@ html.no-csstransitions .home-content__main {
   animation: logo-spin 1 20s linear;
   animation-delay: 10s;
 }
-.wrapHome:hover {
+.animationHome:hover {
   fill: rgba(255, 156, 0, 0.5);
   /* transform: scale(1.1); Don't use */
 }
 /* Wolf Animation ABOUT page */
-.wrapAbout {
+.animationAbout {
   /* fill: rgba(140, 255, 0, 0.2); */
   fill: rgba(255, 156, 0, 0.2);
   display: block;
@@ -2667,7 +2690,7 @@ html.no-csstransitions .home-content__main {
   animation: logo-spin 5 20s linear;
   animation-delay: 10s;
 }
-.wrapAbout:hover {
+.animationAbout:hover {
   /* fill: rgba(140, 255, 0, 0.2); */
   fill: rgba(255, 156, 0, 0.5);
   /* fill: #8CFF00; */
@@ -3418,7 +3441,7 @@ html.no-csstransitions .home-content__main {
   height: 100%;
   opacity: .3;
   background-color: rgba(0, 0, 0, 0.9);
-  background-image: url(../images/pattern.jpg);
+  background-image: url(../images/pattern-Graffiti.jpg);
   background-size: 760px 380px;
 }
 /* -------------------------------------------------------------------
@@ -3805,7 +3828,7 @@ html.no-csstransitions .home-content__main {
   padding-bottom: 21rem;
   text-align: center;
   position: relative;
-  background-image: url(../images/mwIMG.svg);
+  background-image: url(../images/portfolio/studioConsole-1200@2x.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3819,7 +3842,7 @@ html.no-csstransitions .home-content__main {
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: .9;
+  opacity: .8;
   background-color: #111111;
 }
 
@@ -4050,6 +4073,21 @@ html.no-csstransitions .home-content__main {
   font-size: 3.3rem;
   line-height: 1.636;
   margin-top: 9rem;
+}
+
+/* .footer-logo  {
+  background: blue;
+} */
+.footer-logo a {
+  display: block;
+  padding: 0;
+  outline: 0;
+  border: none;
+}
+.footer-logo img {
+  width: 77px;
+  height: 77px;
+  border-radius: 80%;
 }
 
 .contact-main [class*="contact-"] {

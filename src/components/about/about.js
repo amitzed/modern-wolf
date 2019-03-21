@@ -16,7 +16,7 @@ export default class About extends Component {
           <div className="col-full">
             <p className="lead">
 
-            <div className = "wrapAbout">
+            <div className = "animationAbout">
             <svg id = 'Layer_1'
             xmlns = 'http://www.w3.org/2000/svg'
             viewBox = '0 0 851.5 793.1' >
@@ -1378,7 +1378,8 @@ export default class About extends Component {
             path className = 'st76'
             d = 'M475.7,223.8c0.2-2.2,1.5-3.2,3.5-3.6C478.9,222.2,477.6,223.4,475.7,223.8z' />
             </g>
-             </switch> </svg>
+              </switch>
+              </svg>
              </div>
 
 

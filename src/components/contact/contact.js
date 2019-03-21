@@ -14,6 +14,9 @@ export default class Contact extends Component {
               music idea or collaboration</h1>
           </div>
         </div>
+        <a className="footer-logo">
+          <img src="images/mw-GIFs/wolf-breath.gif" alt="Image"/>
+        </a>
         {/* end section-header */}
         <div className="row contact-main" data-aos="fade-up">
           <div className="col-full">
