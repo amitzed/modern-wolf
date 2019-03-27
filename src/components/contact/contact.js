@@ -1386,7 +1386,9 @@ export default class Contact extends Component {
           <div className="col-full">
 
             <p className="contact-email">
-              <a href="mailto:modernwolfhowl@gmail.com">E-mail</a>
+              <a href="mailto:modernwolfhowl@gmail.com">
+                <i className="icon-mail"></i>
+              </a>
             </p>
             <p className="contact-address">
 

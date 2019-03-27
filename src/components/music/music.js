@@ -15,59 +15,45 @@ export default class Music extends Component {
         <div className="row bit-narrow services block-1-2 block-tab-full">
           <div className="col-block item-service" data-aos="fade-up">
             <div className="item-service__icon">
-              <i className="icon-star"/>
+              <i className="icon-video"/>
             </div>
             <div className="item-service__text">
-              <h3 className="item-title">Title Identity</h3>
-              <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+              <h3 className="item-title">Self Control</h3>
+              <p>
+                <iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/422809755&color=%238cff00&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
               </p>
             </div>
           </div>
           <div className="col-block item-service" data-aos="fade-up">
             <div className="item-service__icon">
-              <i className="icon-group"/>
+              <i className="icon-video"/>
             </div>
             <div className="item-service__text">
-              <h3 className="item-title">Title</h3>
-              <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+              <h3 className="item-title">Bottles Burn Like 1985</h3>
+              <p>
+                <iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/515692005&color=%238cff00&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
               </p>
             </div>
           </div>
           <div className="col-block item-service" data-aos="fade-up">
             <div className="item-service__icon">
-              <i className="icon-pie-chart"/>
+              <i className="icon-video"/>
             </div>
             <div className="item-service__text">
-              <h3 className="item-title">Title</h3>
-              <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+              <h3 className="item-title">Some Days</h3>
+              <p>
+                <iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471826971&color=%238cff00&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
               </p>
             </div>
           </div>
           <div className="col-block item-service" data-aos="fade-up">
             <div className="item-service__icon">
-              <i className="icon-image"/>
+              <i className="icon-video"/>
             </div>
             <div className="item-service__text">
-              <h3 className="item-title">Title</h3>
-              <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-              </p>
-            </div>
-          </div>
-          <div className="col-block item-service" data-aos="fade-up">
-            <div className="item-service__icon">
-              <i className="icon-cube"/>
-            </div>
-            <div className="item-service__text">
-              <h3 className="item-title">Title</h3>
-              <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-              </p>
-            </div>
-          </div>
-          <div className="col-block item-service" data-aos="fade-up">
-            <div className="item-service__icon"><i className="icon-lego-block"/></div>
-            <div className="item-service__text">
-              <h3 className="item-title">Title Design</h3>
-              <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+              <h3 className="item-title">Self Control (Instrumental)</h3>
+              <p>
+                <iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/422803275&color=%238cff00&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
               </p>
             </div>
           </div>

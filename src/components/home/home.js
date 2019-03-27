@@ -1461,8 +1461,9 @@ export default class Home extends Component {
                </div>
 
             <h3>
-              We make great music and beautiful audio landscapes
+
             </h3>
+            
             <div className="home-content__video">
               <a className="video-link" href="https://youtu.be/eF70Ii69u9Yrel=0" data-lity="data-lity">
                 <span className="video-icon"/>

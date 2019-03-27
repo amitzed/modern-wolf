@@ -21,10 +21,9 @@ class App extends Component {
       <div className="App">
         <Header />
         <Home />
-
         <About />
-        <Music />
         <Video />
+        <Music />
         <Find />
         <Saying />
         <Preloader />
