@@ -1488,21 +1488,6 @@ export default class Home extends Component {
         {/* end home-content */}
         <ul className="home-social">
           <li>
-            <a target="_blank" href="https://www.facebook.com/modernwolfhowl/"><i className="fab fa-facebook-f" aria-hidden="true"/>
-              <span>Facebook</span>
-            </a>
-          </li>
-          <li>
-            <a target="_blank" href="#0"><i className="fab fa-twitter" aria-hidden="true"/>
-              <span>Twiiter</span>
-            </a>
-          </li>
-          <li>
-            <a target="_blank" href="#0"><i className="fab fa-instagram" aria-hidden="true"/>
-              <span>Instagram</span>
-            </a>
-          </li>
-          <li>
             <a target="_blank" href="https://soundcloud.com/modernwolf"><i className="fab fa-soundcloud" aria-hidden="true"/>
               <span>Soundcloud</span>
             </a>
@@ -1512,6 +1497,37 @@ export default class Home extends Component {
               <span>Spotify</span>
             </a>
           </li>
+          <li>
+            <a target="_blank" href="https://www.youtube.com/channel/UClCyQmIL9wAGrEyTnmj_L-A"><i className="fab fa-youtube" aria-hidden="true"/>
+              <span>YouTube</span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.facebook.com/modernwolfhowl/"><i className="fab fa-facebook-f" aria-hidden="true"/>
+              <span>Facebook</span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://modernwolf.bandcamp.com/"><i className="fab fa-bandcamp" aria-hidden="true"/>
+              <span>Bandcamp</span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://music.amazon.com/artists/B01IDKW8JY?tab=CATALOG"><i className="fab fa-amazon" aria-hidden="true"/>
+              <span>Amazon</span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://play.google.com/store/music/artist/Modern_Wolf?id=Akmwk46zjbj26rtsoz6dtmpr4ke"><i className="fab fa-google-play" aria-hidden="true"/>
+              <span>Google</span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://itunes.apple.com/us/artist/modern-wolf/1359183235"><i className="fab fa-apple" aria-hidden="true"/>
+              <span>Soundcloud</span>
+            </a>
+          </li>
+
         </ul>
         {/* end home-social */}
       </section>

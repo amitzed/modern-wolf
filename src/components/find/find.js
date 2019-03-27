@@ -26,31 +26,19 @@ export default class Find extends Component {
                 <a target="_blank" href="https://soundcloud.com/modernwolf">Soundcloud</a>
               </li>
               <li>
-                <a target="_blank" href="#0">Dropbox</a>
+                <a target="_blank" href="https://www.youtube.com/channel/UClCyQmIL9wAGrEyTnmj_L-A">YouTube</a>
               </li>
               <li>
-                <a target="_blank" href="#0">Apple</a>
+                <a target="_blank" href="https://itunes.apple.com/us/artist/modern-wolf/1359183235">Apple</a>
               </li>
               <li>
-                <a target="_blank" href="#0">Google</a>
+                <a target="_blank" href="https://play.google.com/store/music/artist/Modern_Wolf?id=Akmwk46zjbj26rtsoz6dtmpr4ke">Google</a>
               </li>
               <li>
-                <a target="_blank" href="#0">Amazon</a>
+                <a target="_blank" href="https://music.amazon.com/artists/B01IDKW8JY?tab=CATALOG">Amazon</a>
               </li>
               <li>
                 <a target="_blank" href="https://www.facebook.com/modernwolfhowl/">Facebook</a>
-              </li>
-              <li>
-                <a target="_blank" href="#0">Crucial Music</a>
-              </li>
-              <li>
-                <a target="_blank" href="#0">Apple</a>
-              </li>
-              <li>
-                <a target="_blank" href="#0">Google</a>
-              </li>
-              <li>
-                <a target="_blank" href="#0">CD Baby</a>
               </li>
             </ul>
           </div>
