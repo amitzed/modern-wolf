@@ -7,26 +7,26 @@ export default class Saying extends Component {
         <div className="row testimonials narrow">
           <div className="col-full testimonials__slider" data-aos="fade-up">
             <div className="testimonials__slide">
-              <p>Qui ipsam temporibus quisquam vel. Maiores eos cumque distinctio nam accusantium ipsum. Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
+              <p>Hope takes me where it wants to go, every time I open up that door. Chain-smoke with a lump stuck in my throat, hope takes away my self-control.</p>
               <div className="testimonials__author">
-                Jay-Z
-                <span>Musician, Executive</span>
+                Self Control
+                <span>(Original Version)</span>
               </div>
             </div>
             {/* end testimonials__slide */}
             <div className="testimonials__slide">
-              <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci. Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
+              <p>Shark's vein, it's always colder, when you brainwash to deceive. Campaign, it's always better, when you lie right through your teeth.</p>
               <div className="testimonials__author">
-                Johnny Rotten
-                <span>Lead Singer, Sex Pistols</span>
+                Sociopath Bloodbath
+                <span>(Original Version)</span>
               </div>
             </div>
             {/* end testimonials__slide */}
             <div className="testimonials__slide">
-              <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam. Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
+              <p>Take my criticism, squeeze it, 'til its blood drips on the floor. Take my opposition, smash it, 'til I'm scared to speak up anymore. He says "In me you must believe, fascism is for my self-esteem."</p>
               <div className="testimonials__author">
-                Armin van Buuren
-                <span>Musician, Armada</span>
+                Bottles Burn Like 1985
+                <span>(Original Version)</span>
               </div>
             </div>
             {/* end testimonials__slide */}

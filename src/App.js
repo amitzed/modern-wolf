@@ -8,8 +8,8 @@ import Home from './components/home/home';
 import About from './components/about/about';
 import Music from './components/music/music';
 import Video from  './components/video/video';
-import Find from './components/find/find';
-import Saying from './components/saying/saying';
+// import Find from './components/find/find';
+// import Saying from './components/saying/saying';
 import Preloader from './components/preloader/preloader';
 import Photoswipe from  './components/photoswipe/photoswipe';
 import Contact from './components/contact/contact';
@@ -24,8 +24,8 @@ class App extends Component {
         <About />
         <Video />
         <Music />
-        <Find />
-        <Saying />
+
+
         <Preloader />
         <Photoswipe />
         <Contact />
