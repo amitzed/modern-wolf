@@ -9,7 +9,7 @@ import Music from './components/music/music';
 import Video from './components/video/video';
 import Image from  './components/image/image';
 // import Find from './components/find/find';
-import Newsletter from './components/newsletter/newsletter';
+// import Newsletter from './components/newsletter/newsletter';
 import Photoswipe from  './components/photoswipe/photoswipe';
 import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
@@ -25,7 +25,7 @@ class App extends Component {
         <Video />
         <Image />
 
-        <Newsletter />
+
         <Photoswipe />
         <Contact />
         <Footer />

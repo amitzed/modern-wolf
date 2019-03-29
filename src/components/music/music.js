@@ -11,24 +11,31 @@ export default class Music extends Component {
                 <li>
                   <a target="_blank" href="https://soundcloud.com/modernwolf"><i className="fab fa-soundcloud"/></a>
                 </li>
+                &nbsp;
                 <li>
                   <a target="_blank" href="https://open.spotify.com/artist/05vLOX4PuvR1i97vcNBd47"><i className="fab fa-spotify"/></a>
                 </li>
+                &nbsp;
                 <li>
                   <a target="_blank" href="https://www.youtube.com/channel/UClCyQmIL9wAGrEyTnmj_L-A"><i className="fab fa-youtube"/></a>
                 </li>
+                &nbsp;
                 <li>
                   <a target="_blank" href="https://www.facebook.com/modernwolfhowl/"><i className="fab fa-facebook"/></a>
                 </li>
+                &nbsp;
                 <li>
                   <a target="_blank" href="https://modernwolf.bandcamp.com/"><i className="fab fa-bandcamp"/></a>
                 </li>
+                &nbsp;
                 <li>
                   <a target="_blank" href="https://music.amazon.com/artists/B01IDKW8JY?tab=CATALOG"><i className="fab fa-amazon"/></a>
                 </li>
+                &nbsp;
                 <li>
                   <a target="_blank" href="https://play.google.com/store/music/artist/Modern_Wolf?id=Akmwk46zjbj26rtsoz6dtmpr4ke"><i className="fab fa-google-play"/></a>
                 </li>
+                &nbsp;
                 <li>
                   <a target="_blank" href="https://itunes.apple.com/us/artist/modern-wolf/1359183235"><i className="fab fa-apple"/></a>
                 </li>

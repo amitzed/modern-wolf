@@ -27,8 +27,8 @@ export default class Image extends Component {
 
                   </p>
                 </div>
-                <a href="https://modernwolf.bandcamp.com/" className="item-folio__project-link" title="Project link">
-                  <i className="icon-link"/>
+                <a href="https://modernwolf.bandcamp.com/" className="item-folio__project-link" title="Modern Wolf">
+                  <i className=""/>
                 </a>
                 <div className="item-folio__caption">
                   <p></p>
@@ -51,8 +51,8 @@ export default class Image extends Component {
 
                   </p>
                 </div>
-                <a href="https://modernwolf.bandcamp.com/" className="item-folio__project-link" title="Link">
-                  <i className="icon-link"/>
+                <a href="https://modernwolf.bandcamp.com/" className="item-folio__project-link" title="Modern Wolf">
+                  <i className=""/>
                 </a>
                 <div className="item-folio__caption">
                   <p></p>
@@ -75,8 +75,8 @@ export default class Image extends Component {
 
                   </p>
                 </div>
-                <a href="https://modernwolf.bandcamp.com/" className="item-folio__project-link" title="Link">
-                  <i className="icon-link"/>
+                <a href="https://modernwolf.bandcamp.com/" className="item-folio__project-link" title="Modern Wolf">
+                  <i className=""/>
                 </a>
                 <div className="item-folio__caption">
                   <p></p>
@@ -99,8 +99,8 @@ export default class Image extends Component {
 
                   </p>
                 </div>
-                <a href="https://modernwolf.bandcamp.com/" className="item-folio__project-link" title="Link">
-                  <i className="icon-link"/>
+                <a href="https://modernwolf.bandcamp.com/" className="item-folio__project-link" title="Modern Wolf">
+                  <i className=""/>
                 </a>
                 <div className="item-folio__caption">
                   <p></p>
@@ -123,8 +123,8 @@ export default class Image extends Component {
 
                   </p>
                 </div>
-                <a href="https://modernwolf.bandcamp.com/" className="item-folio__project-link" title="Link">
-                  <i className="icon-link"/>
+                <a href="https://modernwolf.bandcamp.com/" className="item-folio__project-link" title="Modern Wolf">
+                  <i className=""/>
                 </a>
                 <div className="item-folio__caption">
                   <p></p>
@@ -147,8 +147,8 @@ export default class Image extends Component {
 
                   </p>
                 </div>
-                <a href="https://modernwolf.bandcamp.com/" className="item-folio__project-link" title="Link">
-                  <i className="icon-link"/>
+                <a href="https://modernwolf.bandcamp.com/" className="item-folio__project-link" title="Modern Wolf">
+                  <i className=""/>
                 </a>
                 <div className="item-folio__caption">
                   <p></p>

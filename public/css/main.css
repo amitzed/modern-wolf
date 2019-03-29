@@ -2052,7 +2052,7 @@ body.menu-is-open {
   height: 9rem;
   width: 9rem;
   border-radius: 50%;
-  background-color: #8CFF00;
+  background-color: rgba(140, 255, 0, 0.8);
   background-image: url(../images/icons/logo-wolf.svg);
   background-repeat: no-repeat;
   background-position: 50% center;
@@ -3413,6 +3413,7 @@ html.no-csstransitions .home-content__main {
   display: block;
   color: rgba(140, 255, 0, 0.5);
   box-shadow: 0 0 0 1px rgba(140, 255, 0, 0.4);
+  background-image: url(../images/mw-GIFs/wolf-breath.gif);
   border-radius: 50%;
   height: 4.2rem;
   width: 4.2rem;
