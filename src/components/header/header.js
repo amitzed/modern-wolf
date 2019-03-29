@@ -20,14 +20,15 @@ export default class Header extends Component {
                 <a className="smoothscroll" href="#home" title="home">Home</a>
               </li>
               <li>
-                <a className="smoothscroll" href="#about" title="about">About</a>
+                <a className="smoothscroll" href="#music" title="music">Music</a>
               </li>
               <li>
-                <a className="smoothscroll" href="#works" title="works">Video</a>
+                <a className="smoothscroll" href="#video" title="video">Video</a>
               </li>
               <li>
-                <a className="smoothscroll" href="#services" title="services">Music</a>
+                <a className="smoothscroll" href="#newsletter" title="newsletter">Newsletter</a>
               </li>
+
               <li>
                 <a className="smoothscroll" href="#contact" title="contact">Contact</a>
               </li>

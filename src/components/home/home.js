@@ -1463,7 +1463,7 @@ export default class Home extends Component {
             <h3>
 
             </h3>
-            
+
             <div className="home-content__video">
               <a className="video-link" href="https://youtu.be/eF70Ii69u9Yrel=0" data-lity="data-lity">
                 <span className="video-icon"/>
@@ -1471,17 +1471,17 @@ export default class Home extends Component {
               </a>
             </div>
             <div className="home-content__button">
-              <a href="#about" className="smoothscroll btn btn--primary btn--large">
-                More About Us
+              <a href="#video" className="smoothscroll btn btn--primary btn--large">
+                More Videos
               </a>
               <a href="#contact" className="smoothscroll btn btn--large">
-                Let's Talk
+                Contact
               </a>
             </div>
           </div>
           {/* end home-content__main */}
           <div className="home-content__scroll">
-            <a href="#about" className="scroll-link smoothscroll">
+            <a href="#music" className="scroll-link smoothscroll">
               Scroll
             </a>
           </div>

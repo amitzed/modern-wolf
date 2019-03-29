@@ -2,12 +2,37 @@ import React, {Component} from 'react';
 export default class Music extends Component {
   render() {
     return (<React.Fragment>
-      <section id="services" className="s-services target-section darker">
+      <section id="music" className="s-services target-section darker">
         <div className="row section-header bit-narrow" data-aos="fade-up">
           <div className="col-full">
-            <h3 className="subhead">Music We Make</h3>
-            <h1 className="display-1">
-              We take pride in what we do. Our music ...
+            <h3 className="subhead" align="center">Music</h3>
+            <h1 className="display-1" align="center">
+              <ul className="contact-social">
+                <li>
+                  <a target="_blank" href="https://soundcloud.com/modernwolf"><i className="fab fa-soundcloud"/></a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://open.spotify.com/artist/05vLOX4PuvR1i97vcNBd47"><i className="fab fa-spotify"/></a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.youtube.com/channel/UClCyQmIL9wAGrEyTnmj_L-A"><i className="fab fa-youtube"/></a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.facebook.com/modernwolfhowl/"><i className="fab fa-facebook"/></a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://modernwolf.bandcamp.com/"><i className="fab fa-bandcamp"/></a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://music.amazon.com/artists/B01IDKW8JY?tab=CATALOG"><i className="fab fa-amazon"/></a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://play.google.com/store/music/artist/Modern_Wolf?id=Akmwk46zjbj26rtsoz6dtmpr4ke"><i className="fab fa-google-play"/></a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://itunes.apple.com/us/artist/modern-wolf/1359183235"><i className="fab fa-apple"/></a>
+                </li>
+              </ul>
             </h1>
           </div>
         </div>
