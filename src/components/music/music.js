@@ -45,6 +45,7 @@ export default class Music extends Component {
         </div>
         {/* end section-header */}
         <div className="row bit-narrow services block-1-2 block-tab-full">
+
           <div className="col-block item-service" data-aos="fade-up">
             <div className="item-service__icon">
               <i className="icon-video"/>
@@ -56,6 +57,7 @@ export default class Music extends Component {
               </p>
             </div>
           </div>
+
           <div className="col-block item-service" data-aos="fade-up">
             <div className="item-service__icon">
               <i className="icon-video"/>
@@ -67,6 +69,19 @@ export default class Music extends Component {
               </p>
             </div>
           </div>
+
+          <div className="col-block item-service" data-aos="fade-up">
+            <div className="item-service__icon">
+              <i className="icon-video"/>
+            </div>
+            <div className="item-service__text">
+              <h3 className="item-title">Sociopath Bloodbath</h3>
+              <p>
+                <iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/598401027&color=%238cff00&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+              </p>
+            </div>
+          </div>
+
           <div className="col-block item-service" data-aos="fade-up">
             <div className="item-service__icon">
               <i className="icon-video"/>
@@ -78,17 +93,7 @@ export default class Music extends Component {
               </p>
             </div>
           </div>
-          <div className="col-block item-service" data-aos="fade-up">
-            <div className="item-service__icon">
-              <i className="icon-video"/>
-            </div>
-            <div className="item-service__text">
-              <h3 className="item-title">Self Control (Instrumental)</h3>
-              <p>
-                <iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/422803275&color=%238cff00&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-              </p>
-            </div>
-          </div>
+          
         </div>
         {/* end services */}
       </section>

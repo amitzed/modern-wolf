@@ -44,7 +44,7 @@ export default class Find extends Component {
           </div>
         </div>
       </section>
-      {/* end s-clients */}
+      {/* end s-find */}
     </React.Fragment>);
   }
 }

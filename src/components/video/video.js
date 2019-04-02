@@ -1408,7 +1408,7 @@ export default class Video extends Component {
               <div className="item-process__text">
                 <p>
                   <div className="home-content__video">
-                    <a className="video-link" href="#" data-lity="data-lity">
+                    <a className="video-link" href="https://youtu.be/yC-kpFZ2MLA" data-lity="data-lity">
                       <span className="video-icon"/>
                       <span className="video-text">Sociopath Bloodbath</span>
                     </a>

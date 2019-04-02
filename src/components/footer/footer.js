@@ -5,7 +5,7 @@ export default class Footer extends Component {
       <footer>
         <div className="row">
           <div className="col-full ss-copyright">
-            <span>© Copyright Modern Wolf 2019</span>
+            <span>© Copyright Modern Wolf {(new Date().getFullYear())}</span>
             <span>Design by
               <a target="_blank" href="https://modernwolf.bandcamp.com/"> Modern Wolf</a>
             </span>

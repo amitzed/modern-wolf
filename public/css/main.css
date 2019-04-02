@@ -2436,44 +2436,44 @@ html.no-csstransitions .home-content__main {
  }
 
  .modernFont-M {
-   -webkit-animation: zoomIn 2s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
-   animation: zoomIn 2s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
+   -webkit-animation: zoomIn 3s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
+   animation: zoomIn 3s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
  }
  .modernFont-O {
-   -webkit-animation: zoomIn 2.05s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-   animation: zoomIn 2.05s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   -webkit-animation: zoomIn 3.05s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   animation: zoomIn 3.05s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
  }
  .modernFont-D {
-   -webkit-animation: zoomIn 2.10s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
-   animation: zoomIn 2.10s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
+   -webkit-animation: zoomIn 3.10s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
+   animation: zoomIn 3.10s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
  }
  .modernFont-E {
-   -webkit-animation: zoomIn 2.15s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-   animation: zoomIn 2.15s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   -webkit-animation: zoomIn 3.15s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   animation: zoomIn 3.15s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
  }
  .modernFont-R {
-   -webkit-animation: zoomIn 2.20s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-   animation: zoomIn 2.20s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   -webkit-animation: zoomIn 3.20s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   animation: zoomIn 3.20s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
  }
  .modernFont-N {
-   -webkit-animation: zoomIn 2.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-   animation: zoomIn 2.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   -webkit-animation: zoomIn 3.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   animation: zoomIn 3.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
  }
  .wolfFont-W {
-   -webkit-animation: zoomIn 2.25s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
-   animation: zoomIn 2.25s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
+   -webkit-animation: zoomIn 3.25s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
+   animation: zoomIn 3.25s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
  }
  .wolfFont-O {
-   -webkit-animation: zoomIn 2.15s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
-   animation: zoomIn 2.15s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
+   -webkit-animation: zoomIn 3.15s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
+   animation: zoomIn 3.15s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
  }
  .wolfFont-L {
-   -webkit-animation: zoomIn 2.20s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
-   animation: zoomIn 2.20s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
+   -webkit-animation: zoomIn 3.20s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
+   animation: zoomIn 3.20s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
  }
  .wolfFont-F {
-   -webkit-animation: zoomIn 2.2s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
-   animation: zoomIn 2.2s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
+   -webkit-animation: zoomIn 3.2s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
+   animation: zoomIn 3.2s cubic-bezier(0.1, 0.7, 1.0, 0.1) both;
  }
 /* Wolf Animation NAV page */
 .animationNav {
