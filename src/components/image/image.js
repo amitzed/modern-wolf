@@ -35,7 +35,7 @@ export default class Image extends Component {
                 </div>
               </div>
             </div>
-            {/* end masonry__brick */}
+
             <div className="masonry__brick" data-aos="fade-up">
               <div className="item-folio">
                 <div className="item-folio__thumb">
@@ -59,7 +59,7 @@ export default class Image extends Component {
                 </div>
               </div>
             </div>
-            {/* end masonry__brick */}
+
             <div className="masonry__brick" data-aos="fade-up">
               <div className="item-folio">
                 <div className="item-folio__thumb">
@@ -83,7 +83,7 @@ export default class Image extends Component {
                 </div>
               </div>
             </div>
-            {/* end masonry__brick */}
+
             <div className="masonry__brick" data-aos="fade-up">
               <div className="item-folio">
                 <div className="item-folio__thumb">
@@ -107,7 +107,7 @@ export default class Image extends Component {
                 </div>
               </div>
             </div>
-            {/* end masonry__brick */}
+
             <div className="masonry__brick" data-aos="fade-up">
               <div className="item-folio">
                 <div className="item-folio__thumb">
@@ -131,7 +131,7 @@ export default class Image extends Component {
                 </div>
               </div>
             </div>
-            {/* end masonry__brick */}
+
             <div className="masonry__brick" data-aos="fade-up">
               <div className="item-folio">
                 <div className="item-folio__thumb">

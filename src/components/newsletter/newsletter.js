@@ -13,7 +13,7 @@ export default class Newsletter extends Component {
                 <span>(Original Version)</span>
               </div>
             </div>
-            {/* end testimonials__slide */}
+
             <div className="testimonials__slide">
               <p>Shark's vein, it's always colder, when you brainwash to deceive. Campaign, it's always better, when you lie right through your teeth.</p>
               <div className="testimonials__author">
@@ -21,7 +21,7 @@ export default class Newsletter extends Component {
                 <span>(Original Version)</span>
               </div>
             </div>
-            {/* end testimonials__slide */}
+
             <div className="testimonials__slide">
               <p>Take my criticism, squeeze it, 'til its blood drips on the floor. Take my opposition, smash it, 'til I'm scared to speak up anymore. He says "In me you must believe, fascism is for my self-esteem."</p>
               <div className="testimonials__author">
@@ -29,11 +29,11 @@ export default class Newsletter extends Component {
                 <span>(Original Version)</span>
               </div>
             </div>
-            {/* end testimonials__slide */}
+            {/* end __slide */}
           </div>
-          {/* end testimonials__slider */}
+          {/* end __slider */}
         </div>
-        {/* end testimonials */}
+
       </section>
       {/* end s-testimonials */}
     </React.Fragment>);

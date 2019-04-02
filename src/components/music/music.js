@@ -93,11 +93,11 @@ export default class Music extends Component {
               </p>
             </div>
           </div>
-          
+
         </div>
-        {/* end services */}
+
       </section>
-      {/* end s-services */}
+
     </React.Fragment>);
   }
 }

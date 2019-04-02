@@ -1386,7 +1386,7 @@ export default class Video extends Component {
             </p>
           </div>
         </div>
-        {/* end about-desc */}
+        {/* end  */}
 
         <div className="row bit-narrow">
           <div className="about-process process block-1-4 block-tab-full">
@@ -1444,11 +1444,11 @@ export default class Video extends Component {
             </div>
 
           </div>
-          {/* end process */}
+          {/* end  */}
         </div>
         {/* end row */}
       </section>
-      {/* end s-about */}
+      {/* end  */}
     </React.Fragment>);
   }
 }
