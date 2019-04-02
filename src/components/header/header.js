@@ -5,7 +5,7 @@ export default class Header extends Component {
       <header className="s-header">
         <div className="header-logo">
           <a className="site-logo" href="index.html">
-            <img src="images/logo-wolf.svg" alt="Homepage"/>
+            <img src="images/logo-wolf-icon.svg" alt="Homepage"/>
           </a>
         </div>
         {/* end header-logo */}
@@ -25,7 +25,7 @@ export default class Header extends Component {
               <li>
                 <a className="smoothscroll" href="#video" title="video">Video</a>
               </li>
-            {  /*
+              {/*
               <li>
                 <a className="smoothscroll" href="#newsletter" title="newsletter">Newsletter</a>
               </li>

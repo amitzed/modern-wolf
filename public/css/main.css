@@ -19,7 +19,6 @@
  *  # additional components
  *    ## alert box
  *    ## additional typo styles
- *    ## skillbars
  *  # reusable and common theme styles
  *    ## display headings
  *    ## section header
@@ -36,14 +35,14 @@
  *    ## home social
  *    ## home animations
       ## home & about Wolf Image & Font SVG Animation
- *  # about
- *    ## about process
+ *  # video
+ *    ## video process
  *  # music
  *    ## music list
  *  # video
  *    ## bricks/masonry
- *  # clients
- *  # testimonials
+ *  # find
+ *  # newsletter
  *  # contact
  *    ## contact social
  *  # footer
@@ -575,9 +574,9 @@ form,
 #loader > div {
   content: "";
   /* background: #FF9C00; */
-  background: repeating-radial-gradient(#a79494, #000 80%, #8CFF00 15%);
-  width: 50px;
-  height: 50px;
+  background: repeating-radial-gradient(#8CFF00, #000 80%, #FF9C00 15%);
+  width: 30px;
+  height: 30px;
   position: absolute;
   top: 0;
   left: 0;
@@ -1213,48 +1212,6 @@ input::-moz-focus-inner {
   content: none;
 }
 
-/**
- * Stats Tab
- * --------------------------------------------------------------------- */
-.stats-tabs {
-  padding: 0;
-  margin: 3rem 0;
-}
-
-.stats-tabs li {
-  display: inline-block;
-  margin: 0 1.5rem 3rem 0;
-  padding: 0 1.5rem 0 0;
-  border-right: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-.stats-tabs li:last-child {
-  margin: 0;
-  padding: 0;
-  border: none;
-}
-
-.stats-tabs li a {
-  display: inline-block;
-  font-size: 2.5rem;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 700;
-  border: none;
-  color: #FFFFFF;
-}
-
-.stats-tabs li a:hover {
-  color: rgba(255, 156, 0, 0.6);
-}
-
-.stats-tabs li a em {
-  display: block;
-  margin: .6rem 0 0 0;
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 1.4rem;
-  font-weight: normal;
-  font-style: normal;
-}
 
 /* ===================================================================
  * # reusable and common theme styles
@@ -1537,7 +1494,7 @@ body.menu-is-open {
 }
 
 .header-logo img {
-  width: 155px;
+  width: 90px;
   /* height: 36px; */
   height: 77px;
   -webkit-transition: all .3s ease-in-out;
@@ -1838,6 +1795,7 @@ body.menu-is-open {
 @media only screen and (max-width:1200px) {
   .header-logo {
     left: 60px;
+    width: 70px;
   }
 
   .header-menu-toggle {
@@ -1871,7 +1829,8 @@ body.menu-is-open {
 
 @media only screen and (max-width:800px) {
   .header-logo {
-    left: 40px;
+    left: 20px;
+    width: 65px;
   }
 
   .header-nav {
@@ -1912,7 +1871,7 @@ body.menu-is-open {
   }
 
   .header-logo img {
-    width: 150px;
+    width: 50px;
     height: 35px;
   }
 
@@ -2993,7 +2952,7 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # about
+ * # video
  *
  * ------------------------------------------------------------------- */
 .s-about {
@@ -3004,7 +2963,7 @@ html.no-csstransitions .home-content__main {
 }
 
 /* -------------------------------------------------------------------
- * ## about process
+ * ## video process
  * ------------------------------------------------------------------- */
 .process {
   margin-top: 6.6rem;
@@ -3016,27 +2975,6 @@ html.no-csstransitions .home-content__main {
   margin-bottom: 2.1rem;
   position: relative;
 }
-
-/* .process h4::before {
-  content: counter(ctr);
-  counter-increment: ctr;
-  display: block;
-  font-family: "saffran",sans-serif;
-  font-style: normal;
-  font-size: 2.1rem;
-  font-weight: 700;
-  text-align: center;
-  color: #FF9C00;
-  background-color: #8CFF00;
-  background-image: url("../images/mw-GIFs/wolf-breath.gif");
-  height: 48px;
-  width: 48px;
-  line-height: 48px;
-  border-radius: 50%;
-  position: absolute;
-  left: 0;
-  top: -5px;
-} */
 
 .item-process {
   position: relative;
@@ -3054,7 +2992,7 @@ html.no-csstransitions .home-content__main {
 
 /* -------------------------------------------------------------------
  * responsive:
- * about
+ * video
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1000px) {
   .item-process:nth-child(2n+1) {
@@ -3532,7 +3470,7 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # clients
+ * # Find
  *
  * ------------------------------------------------------------------- */
 .s-clients {
@@ -3587,7 +3525,7 @@ html.no-csstransitions .home-content__main {
 
 /* -------------------------------------------------------------------
  * responsive:
- * clients
+ * Find
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1000px) {
   .s-clients {
@@ -3658,7 +3596,7 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # testimonials
+ * # Newsletter
  *
  * ------------------------------------------------------------------- */
 .s-testimonials {
@@ -3783,7 +3721,7 @@ html.no-csstransitions .home-content__main {
 
 /* -------------------------------------------------------------------
  * responsive:
- * testimonials
+ * Newsletter
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1200px) {
   .testimonials__slider {
