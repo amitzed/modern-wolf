@@ -1482,7 +1482,7 @@ export default class Home extends Component {
           {/* end home-content__main */}
           <div className="home-content__scroll">
             <a href="#music" className="scroll-link smoothscroll">
-              Scroll
+              Down
             </a>
           </div>
         </div>

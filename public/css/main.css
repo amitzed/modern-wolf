@@ -52,20 +52,8 @@
  /* ===================================================================
   * # Fonts
   * ------------------------------------------------------------------- */
-/* <link rel="stylesheet" href="https://use.typekit.net/dus8aju.css"> */
 @import "https://use.typekit.net/dus8aju.css";
-/* font-family: "battery-park",sans-serif;
-font-weight: 400;
-font-style: normal; */
-/* *********** */
-/* font-family: "saffran",sans-serif;
-font-weight: 200;
-font-style: normal;*/
-/* *********** */
 @import "https://fonts.googleapis.com/css?family=Raleway|Roboto|Slabo+27px";
-/* font-family: 'Roboto', sans-serif; */
-/* font-family: 'Slabo 27px', serif; */
-/* font-family: 'Raleway', sans-serif; */
 /* ===================================================================
  * # base style overrides
  * ------------------------------------------------------------------- */
@@ -77,7 +65,6 @@ html {
   html {
     font-size: 9.411764705882353px;
   }
-
 }
 
 html,
@@ -116,7 +103,6 @@ a:hover,
 a:active {
   outline: 0;
 }
-
 
 /* ===================================================================
  * # typography & general theme styles
@@ -535,10 +521,8 @@ form,
   margin-bottom: 3rem;
 }
 
-
 /* ===================================================================
  * # preloader - (_preloader-dots.scss)
- *
  * ------------------------------------------------------------------- */
 #preloader {
   position: fixed;
@@ -573,7 +557,6 @@ form,
 
 #loader > div {
   content: "";
-  /* background: #FF9C00; */
   background: repeating-radial-gradient(#8CFF00, #000 80%, #FF9C00 15%);
   width: 30px;
   height: 30px;
@@ -591,7 +574,7 @@ form,
   left: -15px;
 }
 
-/* dots jump */
+/* Bouncing Dots */
 .dots-jump > div {
   -webkit-animation: dots-jump 1.2s infinite ease;
   animation: dots-jump 1.2s infinite ease;
@@ -636,7 +619,7 @@ form,
 
 }
 
-/* dots fade */
+/* Dots Fade */
 .dots-fade > div {
   -webkit-animation: dots-fade 1.6s infinite ease;
   animation: dots-fade 1.6s infinite ease;
@@ -681,7 +664,7 @@ form,
 
 }
 
-/* dots pulse */
+/* Dots Pulse */
 .dots-pulse > div {
   -webkit-animation: dots-pulse 1.2s infinite ease;
   animation: dots-pulse 1.2s infinite ease;
@@ -732,10 +715,8 @@ form,
 
 }
 
-
 /* ===================================================================
  * # forms
- *
  * ------------------------------------------------------------------- */
 fieldset {
   border: none;
@@ -930,10 +911,8 @@ select:-webkit-autofill:focus {
   transition: background-color 5000s ease-in-out 0s;
 }
 
-
 /* ===================================================================
  * # buttons
- *
  * ------------------------------------------------------------------- */
 .btn,
 button,
@@ -985,8 +964,8 @@ input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
   font-family: 'Raleway', sans-serif;
-  background: rgba(255, 156, 0, 0.6);
-  border-color: rgba(255, 156, 0, 0.6);
+  background: rgba(255, 156, 0, 0.4);
+  border-color: rgba(255, 156, 0, 0.2);
   color: #FFFFFF;
 }
 
@@ -1002,7 +981,6 @@ input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
   font-family: "saffran",sans-serif;
   letter-spacing: 8px;
-  /* background: #8CFF00; */
   background-image: url(../images/mw-GIFs/mw-glitch-reduced.gif);
   color: #13161b;
   -webkit-transition: ease all .5s;
@@ -1057,10 +1035,8 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
-
 /* ===================================================================
  * # additional components
- *
  * ------------------------------------------------------------------- */
 
 /* -------------------------------------------------------------------
@@ -1285,7 +1261,6 @@ body.menu-is-open {
   display: inline-block;
   height: 1px;
   width: 550px;
-  background-color: rgba(255, 255, 255, 0.05);
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -1308,7 +1283,7 @@ body.menu-is-open {
   max-width: 1200px;
   width: 89%;
   height: 100%;
-  opacity: .5;
+  opacity: 0;
   border-right: 1px solid rgba(255, 255, 255, 0.1);
   border-left: 1px solid rgba(255, 255, 255, 0.1);
   -webkit-transform: translate3d(-50%, 0, 0);
@@ -1454,7 +1429,6 @@ body.menu-is-open {
 
 }
 
-
 /* ===================================================================
  * # header styles
  * ------------------------------------------------------------------- */
@@ -1495,7 +1469,6 @@ body.menu-is-open {
 
 .header-logo img {
   width: 90px;
-  /* height: 36px; */
   height: 77px;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
@@ -1513,7 +1486,6 @@ body.menu-is-open {
 	content:"";
 	position:absolute; top:0; left:0;
 	width:100%; height:100%;
-  /* background-color:rgba(255, 255, 255, 0.2); */
   background-color:rgba(140, 255, 0, 0.2);
   border-radius:50%;
   -webkit-transform:scale(0);
@@ -1626,8 +1598,6 @@ body.menu-is-open {
 
 .header-nav__list a::before {
   display: block;
-  /* content: counter(ctr, decimal-leading-zero) "."; */
-  /* counter-increment: ctr; */
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.4);
@@ -1751,10 +1721,6 @@ body.menu-is-open {
   position: fixed;
   right: 8rem;
   top: 30px;
-}
-
-.header-menu-toggle.opaque {
-  /* background-color: #000000; */
 }
 
 .header-menu-icon {
@@ -1898,10 +1864,8 @@ body.menu-is-open {
 
 }
 
-
 /* ===================================================================
  * # home
- *
  * ------------------------------------------------------------------- */
 .s-home {
   width: 100%;
@@ -1968,7 +1932,6 @@ body.menu-is-open {
   font-size: 18rem;
   line-height: 1;
   letter-spacing: -.02em;
-  /* letter-spacing: .02em; */
   color: #D1D1CF;
   margin-top: 0;
   margin-bottom: 0;
@@ -1995,7 +1958,6 @@ body.menu-is-open {
  * ------------------------------------------------------------------- */
 .home-content__video {
   display: inline-block;
-  margin-top: 4.2rem;
 }
 
 .home-content__video .video-link {
@@ -2052,7 +2014,7 @@ body.menu-is-open {
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* ** Ripple Animation for Play Icon On Hover ** */
+  /* ** Ripple Animation for Play Icon On Hover ** */
 .home-content__video .video-link:hover:before{
 	animation: ripple 1s ease;
 }
@@ -2066,8 +2028,7 @@ body.menu-is-open {
   border-radius:50%;
 	transform:scale(0);
 }
-
-/* **** */
+  /* **** */
 
 /* -------------------------------------------------------------------
  * ## home buttons
@@ -2082,6 +2043,7 @@ body.menu-is-open {
   height: 7.2rem !important;
   line-height: 6.8rem !important;
   margin-right: 0;
+  border-radius: 7px;
   position: absolute;
 }
 
@@ -2097,8 +2059,8 @@ body.menu-is-open {
 
 .home-content__button .btn:not(.btn--primary) {
   font-family: 'Raleway', sans-serif;
-  background-color: #13161b;
-  border-color: #13161b;
+  background-color: rgba(19, 22, 27, 0.6);
+  border-color: rgba(19, 22, 27, 0.6);
   color: #FFFFFF;
 }
 
@@ -2175,7 +2137,7 @@ body.menu-is-open {
 }
 
 .home-social a {
-  color: #8CFF00;
+  color: rgba(140, 255, 0, 0.85);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
@@ -2359,6 +2321,10 @@ html.no-csstransitions .home-content__main {
  /* -------------------------------------------------------------------
   * Home Logo Font
   * ------------------------------------------------------------------- */
+.wrapFont {
+
+}
+
  .modernFont-M,
  .modernFont-O,
  .modernFont-D,
@@ -2375,7 +2341,6 @@ html.no-csstransitions .home-content__main {
  .modernFont-E:hover,
  .modernFont-R:hover,
  .modernFont-N:hover {
-   /* fill: rgba(255, 156, 0, 0.4); */
    fill: url(../images/mw-GIFs/mw-glitch-reduced.gif);
  }
  .wolfFont-W,
@@ -2390,7 +2355,6 @@ html.no-csstransitions .home-content__main {
  .wolfFont-O:hover,
  .wolfFont-L:hover,
  .wolfFont-F:hover {
-   /* fill: rgba(140, 255, 0, 0.3); */
    fill: url(../images/mw-GIFs/mw-glitch-reduced.gif);
  }
 
@@ -2437,9 +2401,7 @@ html.no-csstransitions .home-content__main {
 /* Wolf Animation NAV page */
 .animationNav {
   fill: rgba(140, 255, 0, 0.5);
-  /* fill: rgba(255, 156, 0, 0.2); */
   display: block;
-  /* margin-left: auto; */
   margin-right: auto;
   width: 50%;
   height: 50%;
@@ -2451,7 +2413,6 @@ html.no-csstransitions .home-content__main {
 .animationNav:hover {
   fill: rgba(255, 156, 0, 0.5);
 }
- /* Breating Animation for Nav Image at Bottom of page ~Line 4132 */
 
 /* Wolf Animation Home page */
 .animationHome {
@@ -2459,8 +2420,10 @@ html.no-csstransitions .home-content__main {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
-  height: 25%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -2469,7 +2432,6 @@ html.no-csstransitions .home-content__main {
 }
 .animationHome:hover {
   fill: rgba(255, 156, 0, 0.5);
-  /* transform: scale(1.1); Don't use */
 }
 /* Wolf Animation ABOUT page */
 .animationAbout {
@@ -2478,8 +2440,10 @@ html.no-csstransitions .home-content__main {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  height: 50%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -2487,10 +2451,7 @@ html.no-csstransitions .home-content__main {
   animation-delay: 10s;
 }
 .animationAbout:hover {
-  /* fill: rgba(140, 255, 0, 0.2); */
   fill: rgba(255, 156, 0, 0.5);
-  /* fill: #8CFF00; */
-  /* fill: #FF9C00; */
 }
 
 /* CSS Animation */
@@ -2551,11 +2512,9 @@ html.no-csstransitions .home-content__main {
   fill: rgba(140, 255, 0, 0.2);
 }
 
-/*
- * ----------------------------------------
+/* * ----------------------------------------
  * Move WHOLE BODY of SVG AROUND Animation *Above*
- * ----------------------------------------
- */
+ * ---------------------------------------- */
 
 @keyframes move {
   20% {
@@ -2597,11 +2556,9 @@ html.no-csstransitions .home-content__main {
   animation: shake 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-/*
- * ----------------------------------------
+/* * ----------------------------------------
  * animation shake *Above*
- * ----------------------------------------
- */
+ * ---------------------------------------- */
 @-webkit-keyframes shake {
   00% {
     transform: rotate(16deg) rotate(10deg);
@@ -2637,11 +2594,9 @@ html.no-csstransitions .home-content__main {
   }
 }
 
-/*
- * ----------------------------------------
+/* * ----------------------------------------
  * Additional animation Spin *Above*
- * ----------------------------------------
- */
+ * ---------------------------------------- */
  @-webkit-keyframes logo-spin {
    from {
      transform: rotate(0deg);
@@ -2659,11 +2614,9 @@ html.no-csstransitions .home-content__main {
    }
  }
 
- /*
-  * ----------------------------------------
+ /* * ----------------------------------------
   * Additional animation Zoom-In *Above*
-  * ----------------------------------------
-  */
+  * ---------------------------------------- */
  @-webkit-keyframes zoomIn {
    50% {transform: scale(0)}
  }
@@ -2950,14 +2903,12 @@ html.no-csstransitions .home-content__main {
 
 }
 
-
 /* ===================================================================
- * # video
- *
+ * # video about
  * ------------------------------------------------------------------- */
 .s-about {
-  padding-top: 18rem;
-  padding-bottom: 18rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   background-color: #121212;
   position: relative;
 }
@@ -3064,17 +3015,16 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # music
- *
+ * # music services
  * ------------------------------------------------------------------- */
 .s-services {
-  padding-top: 18rem;
-  padding-bottom: 18rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   position: relative;
 }
 
 /* -------------------------------------------------------------------
- * ## music list
+ * ## music list - services
  * ------------------------------------------------------------------- */
 .services {
   margin-top: 9rem;
@@ -3109,7 +3059,7 @@ html.no-csstransitions .home-content__main {
 
 /* -------------------------------------------------------------------
  * responsive:
- * music
+ * music-services
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1200px) {
   .services {
@@ -3192,14 +3142,12 @@ html.no-csstransitions .home-content__main {
 
 }
 
-
 /* ===================================================================
- * # video
- *
+ * # Image-works
  * ------------------------------------------------------------------- */
 .s-works {
-  padding-top: 18rem;
-  padding-bottom: 18rem;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
   position: relative;
 }
 
@@ -3422,7 +3370,7 @@ html.no-csstransitions .home-content__main {
 
 /* -------------------------------------------------------------------
  * responsive:
- * video
+ * video-works
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1000px) {
   .s-works {
@@ -3468,10 +3416,8 @@ html.no-csstransitions .home-content__main {
 
 }
 
-
 /* ===================================================================
- * # Find
- *
+ * # Find-clients
  * ------------------------------------------------------------------- */
 .s-clients {
   padding-top: 16.2rem;
@@ -3525,7 +3471,7 @@ html.no-csstransitions .home-content__main {
 
 /* -------------------------------------------------------------------
  * responsive:
- * Find
+ * Find-clients
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1000px) {
   .s-clients {
@@ -3596,8 +3542,7 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # Newsletter
- *
+ * # Newsletter-testimonials
  * ------------------------------------------------------------------- */
 .s-testimonials {
   padding-top: 16.2rem;
@@ -3721,7 +3666,7 @@ html.no-csstransitions .home-content__main {
 
 /* -------------------------------------------------------------------
  * responsive:
- * Newsletter
+ * Newsletter-testimonials
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1200px) {
   .testimonials__slider {
@@ -3808,11 +3753,10 @@ html.no-csstransitions .home-content__main {
 
 /* ===================================================================
  * # contact
- *
  * ------------------------------------------------------------------- */
 .s-contact {
-  padding-top: 16.2rem;
-  padding-bottom: 21rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   background-color: #121212;
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
@@ -3865,7 +3809,6 @@ html.no-csstransitions .home-content__main {
 
 .animationContact {
   fill: rgba(140, 255, 0, 0.3);
-  /* fill: rgba(255, 156, 0, 0.5); */
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -4099,14 +4042,12 @@ html.no-csstransitions .home-content__main {
 
 /* ===================================================================
  * # footer
- *
  * ------------------------------------------------------------------- */
 footer {
   padding-top: 9rem;
   padding-bottom: 6rem;
   color: rgba(255, 255, 255, 0.6);
   background-color: #121212;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
   text-align: center;
   position: relative;
 }
