@@ -24,8 +24,6 @@ class App extends Component {
         <Music />
         <Video />
         <Image />
-
-
         <Photoswipe />
         <Contact />
         <Footer />

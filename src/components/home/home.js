@@ -9,7 +9,6 @@ export default class Home extends Component {
         <div className="home-content">
           <div className="row home-content__main">
             <h1>
-              {/* Modern Wolf */}
               {/* Font Logo */}
               <div className="wrapFont">
                 <svg
