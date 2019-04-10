@@ -5,7 +5,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### SVG animations created using Adobe Illustrator & images edited in Photoshop
 #### Deployed on AWS
 
-Author: [Amit Zaman](https://amitzaman.com)
 
 <p align="center">
   <img src="github-imgs/mw1.png" width="650" title="hover text">
