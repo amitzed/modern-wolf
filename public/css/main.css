@@ -966,6 +966,8 @@ input[type="button"].btn--primary {
   font-family: 'Raleway', sans-serif;
   background: rgba(255, 156, 0, 0.4);
   border-color: rgba(255, 156, 0, 0.2);
+  border-radius: 10px;
+  margin-top: 10px;
   color: #FFFFFF;
 }
 
@@ -979,10 +981,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-  font-family: "saffran",sans-serif;
-  letter-spacing: 8px;
-  background-image: url(../images/mw-GIFs/mw-glitch-reduced.gif);
-  color: #13161b;
+  background: rgba(255, 156, 0, 0.6);
+  color: rgba(140, 255, 0, 0.9);
   -webkit-transition: ease all .5s;
   -ms-transition: ease all .5s;
   transition: ease all .5s;

@@ -1468,13 +1468,8 @@ export default class Home extends Component {
                 <span className="video-icon"/>
                 <span className="video-text">Watch Video</span>
               </a>
-            </div>
-            <div className="home-content__button">
               <a href="#video" className="smoothscroll btn btn--primary btn--large">
                 More Videos
-              </a>
-              <a href="#contact" className="smoothscroll btn btn--large">
-                Contact
               </a>
             </div>
           </div>
