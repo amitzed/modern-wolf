@@ -21,6 +21,10 @@ export default class Music extends Component {
                 </li>
                 &nbsp;
                 <li>
+                  <a target="_blank" href="https://www.instagram.com/modernwolfhowl/"><i className="fab fa-instagram"/></a>
+                </li>
+                &nbsp;
+                <li>
                   <a target="_blank" href="https://www.facebook.com/modernwolfhowl/"><i className="fab fa-facebook"/></a>
                 </li>
                 &nbsp;
@@ -90,6 +94,18 @@ export default class Music extends Component {
               <h3 className="item-title">Some Days</h3>
               <p>
                 <iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471826971&color=%238cff00&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+              </p>
+            </div>
+          </div>
+
+          <div className="col-block item-service" data-aos="fade-up">
+            <div className="item-service__icon">
+              <i className="icon-video"/>
+            </div>
+            <div className="item-service__text">
+              <h3 className="item-title">Curtains</h3>
+              <p>
+                <iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/616760448&color=%238cff00&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
               </p>
             </div>
           </div>

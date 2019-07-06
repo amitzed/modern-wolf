@@ -1498,6 +1498,11 @@ export default class Home extends Component {
             </a>
           </li>
           <li>
+            <a target="_blank" href="https://www.instagram.com/modernwolfhowl/"><i className="fab fa-instagram" aria-hidden="true"/>
+              <span>Instagram</span>
+            </a>
+          </li>
+          <li>
             <a target="_blank" href="https://www.facebook.com/modernwolfhowl/"><i className="fab fa-facebook-f" aria-hidden="true"/>
               <span>Facebook</span>
             </a>

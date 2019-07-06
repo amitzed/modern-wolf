@@ -1443,6 +1443,19 @@ export default class Video extends Component {
               </div>
             </div>
 
+            <div className="col-block item-process" data-aos="fade-up">
+              <div className="item-process__text">
+                <p>
+                  <div className="home-content__video">
+                    <a className="video-link" href="https://youtu.be/CenlaA9ctSsrel=0" data-lity="data-lity">
+                      <span className="video-icon"/>
+                      <span className="video-text">Curtains (Original Version)</span>
+                    </a>
+                  </div>
+                </p>
+              </div>
+            </div>
+
           </div>
           {/* end  */}
         </div>

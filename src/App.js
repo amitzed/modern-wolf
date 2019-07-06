@@ -22,17 +22,17 @@ ReactGA.pageview("/");
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Preloader />
-        <Header />
-        <Home />
-        <Music />
-        <Video />
-        <Image />
-        <Photoswipe />
-        <Contact />
-        <Footer />
-      </div>
+        <div className="App">
+          <Preloader />
+          <Header />
+          <Home />
+          <Music />
+          <Video />
+          <Image />
+          <Photoswipe />
+          <Contact />
+          <Footer />
+        </div>
     );
   }
 }

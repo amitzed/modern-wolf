@@ -1408,6 +1408,9 @@ export default class Contact extends Component {
                 <a target="_blank" href="https://www.youtube.com/channel/UClCyQmIL9wAGrEyTnmj_L-A"><i className="fab fa-youtube"/></a>
               </li>
               <li>
+                <a target="_blank" href="https://www.instagram.com/modernwolfhowl/"><i className="fab fa-instagram"/></a>
+              </li>
+              <li>
                 <a target="_blank" href="https://www.facebook.com/modernwolfhowl/"><i className="fab fa-facebook"/></a>
               </li>
               <li>
